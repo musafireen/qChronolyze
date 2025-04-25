@@ -3361,3 +3361,293 @@ rwH = [
             },
         ],
 ]
+
+amn = [
+        [
+    {
+      
+      "strL": [
+        { "stri": "Amn", "flt": "", "strTyp": "root",  "frm": "i",  "poSp": "V", },
+      ],
+    },
+  ],
+        [
+    {
+      
+      "strL": [
+        { "stri": ">amiyn", "strTyp": "lem",  "frm": "i",   },
+      ],
+    },
+    {
+      
+      "strL": [
+        { "stri": "'aAmin", "strTyp": "lem",  "frm": "i",  },
+      ],
+    },
+  ],
+        [
+    {
+      
+      "strL": [
+        { "stri": "'aAminiyn", "strTyp": "lem",  "frm": "i", },
+      ],
+    },
+  ],
+        [
+    {
+      
+      "strL": [
+        { "stri": "'aAminap", "strTyp": "root",  "frm": "i", },
+      ],
+    },
+  ],
+        [
+    {
+      
+      "strL": [
+        { "stri": "ma>omuwn", "strTyp": "root",  "frm": "i", },
+      ],
+    },
+  ],
+        [
+    {
+      
+      "strL": [
+        { "stri": ">amon", "strTyp": "lem",  "frm": "i",  },
+      ],
+    },
+  ],
+        [
+    {
+      
+      "strL": [
+        { "stri": ">ama`na`t", "strTyp": "lem",  "frm": "i", },
+      ],
+    },
+  ],
+        [
+    {
+      
+      "strL": [
+        { "stri": ">ama`nat", "strTyp": "lem",  "frm": "i",  },
+      ],
+    },
+  ],
+        [
+    {
+      
+      "strL": [
+        { "stri": ">amanap", "strTyp": "lem",  "frm": "i", },
+      ],
+    },
+  ],
+        [
+    {
+      
+      "strL": [
+        { "stri": "ma>oman", "strTyp": "lem",  "frm": "i",  },
+      ],
+    },
+  ],
+        [
+    {
+      
+      "strL": [
+        { "stri": "Amn", "flt": "", "strTyp": "root",  "frm": "viii", },
+      ],
+    },
+  ],
+]
+
+iman = [
+    
+        [
+    {
+      
+      "strL": [
+        { "stri": "Amn", "flt": "", "strTyp": "root",  "frm": "iv",  "poSp": "V", },
+      ],
+    },
+  ],
+        [
+    {
+      
+      "strL": [
+        { "stri": "mu&omin", "strTyp": "lem",  "frm": "iv",   },
+      ],
+    },
+  ],
+        [
+    {
+      
+      "strL": [
+        { "stri": "m~u&omina`t", "strTyp": "lem",  "frm": "iv",   },
+      ],
+    },
+  ],
+        [
+    {
+      
+      "strL": [
+        { "stri": "m~u&ominap", "strTyp": "lem",  "frm": "iv",   },
+      ],
+    },
+  ],
+        [
+    {
+      
+      "strL": [
+        { "stri": "<iyma`n", "strTyp": "root",  "frm": "iv",  "poSp": "N", },
+      ],
+    },
+  ],
+]
+
+iman_amn = [
+  [
+    {
+      
+      "strL": [
+        iman1[0]["strL"][0],
+        amn2,
+      ],
+    },
+  ]
+    for iman1 in iman
+    for amn1 in amn
+    if (amn2 := {**amn1[0]["strL"][0], "wrdDis": 20, })
+]
+
+islam = [
+            [
+    {
+      
+      "strL": [
+        { "stri": "slm", "flt": "", "strTyp": "root",  "frm": "iv",  "poSp": "V", },
+      ],
+    },
+  ],
+        [
+    {
+      
+      "strL": [
+        { "stri": "<isolaAm", "flt": "",},
+      ],
+    },
+  ],
+        [
+    {
+      
+      "strL": [
+        { "stri": "musolim", "flt": "(?:submissive|submit|surrender|Muslim)",},
+      ],
+    },
+    {
+      
+      "strL": [
+        { "stri": "musolimaAt", "flt": "(?:submissive|surrender|submit|Muslim)",},
+      ],
+    },
+    {
+      
+      "strL": [
+        { "stri": "musolimap", "flt": "(?:submissive|submit|surrender|Muslim)",},
+      ],
+    },
+  ],
+]
+
+taslim = [
+        [
+    {
+      
+      "strL": [
+        { "stri": "slm", "strTyp": "root",  "frm": "ii",  "poSp": "V", },
+      ],
+    },
+  ],
+        [
+    {
+      
+      "strL": [
+        { "stri": "m~usal~amap", "strTyp": "lem", },
+      ],
+    },
+  ],
+        [
+    {
+      
+      "strL": [
+        { "stri": "tasoliym", "strTyp": "lem",},
+      ],
+    },
+  ],    
+]
+
+slm = [
+  *taslim,
+        [
+    {
+      
+      "strL": [
+        { "stri": "slm", "flt": "", "strTyp": "root",  "frm": "x", },
+      ],
+    },
+  ],
+        [
+    {
+      
+      "strL": [
+        { "stri": "sala`m", "strTyp": "lem",},
+      ],
+    },
+  ],
+        [
+    {
+      
+      "strL": [
+        { "stri": "salam", "strTyp": "lem",},
+      ],
+    },
+  ],
+        [
+    {
+      
+      "strL": [
+        { "stri": "salom", "strTyp": "lem",},
+      ],
+    },
+  ],
+        [
+    {
+      
+      "strL": [
+        { "stri": "silom", "strTyp": "lem",},
+      ],
+    },
+  ],
+        [
+    {
+      
+      "strL": [
+        { "stri": "saliym", "strTyp": "lem",},
+      ],
+    },
+  ],
+]
+
+
+islam_slm = [
+  [
+    {
+      
+      "strL": [
+        islam1[0]["strL"][0],
+        slm2,
+      ],
+    },
+  ]
+    for islam1 in islam
+    for slm1 in slm
+    if (slm2 := {**slm1[0]["strL"][0], "wrdDisPos": 20, })
+]
