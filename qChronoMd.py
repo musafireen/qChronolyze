@@ -1,11 +1,14 @@
 # from qChronolyze import filtDown, getSorter
 import ipywidgets as widg
 from ipywidgets import interactive as intct
-import re
+import re, json
 from IPython.display import display, clear_output
 from qChronolyze import refLngD, tafsDict, lng2InpSchD
 from qChronolyze import aggregLsts, getSorter, combClass, optStWdgCl, confFcheck
 import copy
+
+with open("data/suAyRuk.json") as f:
+    suAyRukObj = json.loads(f.read())
 
 def qChronoMd(dicti,flnm,refLng,qyArLegSch=lng2InpSchD["arabic"][1]):
     # instLstAgg = []
@@ -42,7 +45,8 @@ def qChronoMd(dicti,flnm,refLng,qyArLegSch=lng2InpSchD["arabic"][1]):
         if suAy not in newDic.keys():
             newDic[suAy] = {
                 'string': f'\n[Q.{suAy}](https://quran.com/{suAy}/tafsirs/{tafs})\n'
-                            + f'\n![[Qrsi#{suAy}]]\n',
+                            + f'\n![[Qrsi#{suAyRukObj[suAy]}]]\n',
+                            # + f'\n![[Qrsi#{suAy}]]\n',
                 # 'queries': [
                 #     {
                 #         'query': rec["query"],
