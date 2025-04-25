@@ -3523,7 +3523,7 @@ islam = [
     {
       
       "strL": [
-        { "stri": "slm", "flt": "", "strTyp": "root",  "frm": "iv",  "poSp": "V", },
+        { "stri": "slm", "strTyp": "root",  "frm": "iv",  "poSp": "V", },
       ],
     },
   ],
@@ -3531,7 +3531,7 @@ islam = [
     {
       
       "strL": [
-        { "stri": "<isolaAm", "flt": "",},
+        { "stri": "<isolaAm", "strTyp": "lem",},
       ],
     },
   ],
@@ -3539,19 +3539,19 @@ islam = [
     {
       
       "strL": [
-        { "stri": "musolim", "flt": "(?:submissive|submit|surrender|Muslim)",},
+        { "stri": "musolim", "strTyp": "lem",},
       ],
     },
     {
       
       "strL": [
-        { "stri": "musolimaAt", "flt": "(?:submissive|surrender|submit|Muslim)",},
+        { "stri": "musolima`t", "strTyp": "lem",},
       ],
     },
     {
       
       "strL": [
-        { "stri": "musolimap", "flt": "(?:submissive|submit|surrender|Muslim)",},
+        { "stri": "m~usolimap", "strTyp": "lem",},
       ],
     },
   ],
@@ -3590,7 +3590,7 @@ slm = [
     {
       
       "strL": [
-        { "stri": "slm", "flt": "", "strTyp": "root",  "frm": "x", },
+        { "stri": "musotasolimuwn", "flt": "", "strTyp": "lem",  "frm": "x", },
       ],
     },
   ],
@@ -3614,7 +3614,7 @@ slm = [
     {
       
       "strL": [
-        { "stri": "salom", "strTyp": "lem",},
+        { "stri": "s~alom", "strTyp": "lem",},
       ],
     },
   ],
