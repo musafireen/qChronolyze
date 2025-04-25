@@ -3622,7 +3622,7 @@ slm = [
     {
       
       "strL": [
-        { "stri": "silom", "strTyp": "lem",},
+        { "stri": "s~ilom", "strTyp": "lem",},
       ],
     },
   ],
