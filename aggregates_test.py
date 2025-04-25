@@ -3531,7 +3531,7 @@ islam = [
     {
       
       "strL": [
-        { "stri": "<isolaAm", "strTyp": "lem",},
+        { "stri": "<isola`m", "strTyp": "lem",},
       ],
     },
   ],
