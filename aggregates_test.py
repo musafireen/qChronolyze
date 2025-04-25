@@ -3515,7 +3515,7 @@ iman_amn = [
   ]
     for iman1 in iman
     for amn1 in amn
-    if (amn2 := {**amn1[0]["strL"][0], "wrdDis": 20, })
+    if (amn2 := {**amn1[0]["strL"][0], "wrdDisPos": 20, })
 ]
 
 islam = [
