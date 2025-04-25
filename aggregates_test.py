@@ -3542,12 +3542,15 @@ islam = [
         { "stri": "musolim", "strTyp": "lem",},
       ],
     },
+  ],
+        [
     {
-      
       "strL": [
         { "stri": "musolima`t", "strTyp": "lem",},
       ],
     },
+  ],
+        [
     {
       
       "strL": [
