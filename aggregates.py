@@ -5442,6 +5442,7 @@ islam_iman = [
 ]
 
 salah = [
+  *salah_waqt,
   *sjd,
   *rkE,
   *Slw,

@@ -2086,7 +2086,65 @@ sbH_trf_nhr = [
   ],
 ]
 
+sbH_qabl_tulu_shams = [
+  [
+    {
+      "strL": [
+         {
+           "stri": 'sbH',
+           "strTyp": 'root',
+           "poSp": 'V',
+           "frm": 'ii',
+         },
+         {
+             "stri": 'TuluwE',
+             "strTyp": 'lem',
+         },
+                  {
+             "stri": '$amos',
+             "strTyp": 'lem',
+
+         },
+         {
+             "stri": 'qabol',
+             "strTyp": 'lem',
+         },
+      ]
+    }
+  ],
+]
+
+sbH_qabl_ghurub_shams = [
+  [
+    {
+      "strL": [
+         {
+           "stri": 'sbH',
+           "strTyp": 'root',
+           "poSp": 'V',
+           "frm": 'ii',
+         },
+         {
+             "stri": 'guruwb',
+             "strTyp": 'lem',
+         },
+                  {
+             "stri": '$amos',
+             "strTyp": 'lem',
+
+         },
+         {
+             "stri": 'qabol',
+             "strTyp": 'lem',
+         },
+      ]
+    }
+  ],
+]
+
 sbH = [
+    *sbH_qabl_tulu_shams,
+    *sbH_qabl_ghurub_shams,
     *ana_layl_sbH,
     *sbH_trf_nhr,
    [
@@ -2395,8 +2453,29 @@ qnt_ana_layl = [
   ],
 ]
 
+qnt_qwm = [
+    qnt_ana_layl,
+    [
+    {
+      "strL": [
+         {
+           "stri": 'qwm',
+           "strTyp": 'root',
+           "poSp": 'V',
+           "frm": "i"
+         },
+         {
+           "stri": 'qaAnit',
+           "strTyp": 'lem',
+         },
+      ]
+    }
+  ],
+]
+
 qnt = [
     qnt_ana_layl,
+    qnt_qwm,
     [
     {
       "strL": [
@@ -2459,9 +2538,19 @@ ana_layl = [
   *ana_layl_sbH,
   *ana_layl_sbH,
   *ana_layl_ayah_tlw,
+  *qnt_ana_layl,
 ]
 
-duluk_shams = [
+atraf_nahar = [
+    *sbH_trf_nhr,
+    *iqam_Slw_trf_nhr
+]
+
+zlf_layl = [
+    *iqam_Slw_zlf_lyl,
+]
+
+duluk_shams_Slw = [
   [
     {
       "strL": [
@@ -2482,7 +2571,11 @@ duluk_shams = [
   ],
 ]
 
-ghasaq_layl = [
+duluk_shams = [
+    *duluk_shams_Slw
+]
+
+ghasaq_layl_Slw = [
   [
     {
       "strL": [
@@ -2504,10 +2597,181 @@ ghasaq_layl = [
   ],
 ]
 
+ghasaq_layl = [
+    *ghasaq_layl_Slw,
+]
+
+qabl_tulu_shams = [
+    sbH_qabl_tulu_shams,
+]
+
+qabl_ghurub_shams = [
+    sbH_qabl_ghurub_shams
+]
+
+Salah_wusta = [
+  [
+    {
+      "strL": [
+         {
+           "stri": 'wusoTaY`',
+           "strTyp": 'lem',
+         },
+         {
+             "stri": 'Salaw`p',
+             "strTyp": 'lem',
+         }
+      ]
+    }
+  ],    
+]
+
+wusta = [
+  Salah_wusta
+]
+
+quran_fajr = [
+  [
+    {
+      "strL": [
+         {
+           "stri": 'fajor',
+           "strTyp": 'lem',
+         },
+         {
+             "stri": "quro'aAn",
+             "strTyp": 'lem',
+         }
+      ]
+    }
+  ],    
+]
+
+Salah_fajr = [
+  [
+    {
+      "strL": [
+         {
+           "stri": 'fajor',
+           "strTyp": 'lem',
+         },
+         {
+             "stri": 'Salaw`p',
+             "strTyp": 'lem',
+         }
+      ]
+    }
+  ],    
+]
+
+fajr = [
+  *Salah_fajr,
+  *quran_fajr,
+]
+
+subhan_msw = [
+  [
+    {
+      "strL": [
+         {
+           "stri": 'suboHa`n',
+           "strTyp": 'lem',
+         },
+         {
+             "stri": 'msw',
+             "strTyp": 'root',
+             "frm": "iv",
+             "poSp": "V",
+         }
+      ]
+    }
+  ],     
+]
+
+msw = [
+    *subhan_msw,
+]
+
+subhan_iSbaH = [
+  [
+    {
+      "strL": [
+         {
+           "stri": 'suboHa`n',
+           "strTyp": 'lem',
+         },
+         {
+             "stri": 'SbH',
+             "strTyp": 'root',
+             "frm": "iv",
+             "poSp": "V",
+         }
+      ]
+    }
+  ],     
+]
+
+iSbaH = [
+  *subhan_iSbaH,
+]
+
+Hamd_ashiyy = [
+  [
+    {
+      "strL": [
+         {
+           "stri": 'Hamod',
+           "strTyp": 'lem',
+         },
+         {
+             "stri": 'Ea$iY~',
+             "strTyp": 'lem',
+         }
+      ]
+    }
+  ],     
+]
+
+ashiyy = [
+  *Hamd_ashiyy,
+]
+
+Hamd_iZhar = [
+  [
+    {
+      "strL": [
+         {
+           "stri": 'Hamod',
+           "strTyp": 'lem',
+         },
+         {
+             "stri": 'Zhr',
+             "strTyp": 'root',
+             "frm": "iv",
+             "poSp": "V",
+         }
+      ]
+    }
+  ],     
+]
+
+iZhar = [
+  *Hamd_iZhar,
+]
+
 salah_waqt = [
+  *msw, 
+  *iSbaH,
+  *ashiyy,
+  *iZhar
+  *fajr,
+  *qabl_ghurub_shams,
+  *qabl_tulu_shams,
   *duluk_shams,
   *ghasaq_layl,
   *ana_layl,
+  *atraf_nahar,
+  *wusta,
 ]
 
 qwm_tlw = [
