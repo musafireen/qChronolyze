@@ -983,7 +983,7 @@ shaytan_sam_srq_sama_buruj = [
     
 ]
 
-shaytan_zyn_dun = [
+shaytan_zyn_duwn = [
     [
         {
             "strL": [
@@ -3417,7 +3417,7 @@ shirk2 = [
     {
       
       "strL": [
-        { "stri": "mu$orik", "flt": "",},
+        { "stri": "mu$orik", "strTyp": "lem",},
       ],
     },
   ],
@@ -3425,7 +3425,7 @@ shirk2 = [
     {
       
       "strL": [
-        { "stri": "<ila`h", "flt": "",},
+        { "stri": "<ila`h", "strTyp": "lem",},
       ],
     },
   ],
@@ -3433,7 +3433,7 @@ shirk2 = [
     {
       
       "strL": [
-        { "stri": "a`lihap", "flt": "",},
+        { "stri": "a`lihap", "strTyp": "lem",},
       ],
     },
   ],
@@ -3652,54 +3652,15 @@ rituals = [
 ]
 
 
-ilah_dun_baEd = [
-    [
-        {
-            "strL": [
-                # {
-                #     "stri": "Ax*",
-                #     "strTyp": "root",
-                #     # "poSp": "V",
-                # },
-                {
-                    "stri": "duwn", 
-                    "strTyp": "lem",
-                },
-                {
-                    "stri": "<ila`h", 
-                    "strTyp": "lem",
-            "wrdDisPos": 30
-                },
-            ],
-        },
-    ],
-    [
-        {
-            "strL": [
-                # {
-                #     "stri": "Ax*",
-                #     "strTyp": "root",
-                #     # "poSp": "V",
-                # },
-                {
-                    "stri": "baEod", 
-                    "strTyp": "lem",
-                },
-                {
-                    "stri": "<ila`h", 
-                    "strTyp": "lem",
-            "wrdDisPos": 30
-                },
-            ],
-        },
-    ],
-]
-
 shirk = [
-    
+    *ilah_duwn_baEd_gayr,
+    *waliy_duwn_baEd_gayr,
+    *shrk,
+    *shaytan_shirk,
+    *jinn_shirk,
+    # *shirk2,
     *idols,
     # *heavenlies,
-    # *shirk2,
     *rituals,
     *evil_spirits,
 

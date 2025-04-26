@@ -101,8 +101,9 @@ dEw_duwn_baEd = [
                     "strTyp": "lem",
                     # "poSp": "V",
                     # "frm": "i",
-                }
-            ]
+                },
+            ],
+            "wrdDisPos": 30,
         },
     ],
     [
@@ -125,7 +126,409 @@ dEw_duwn_baEd = [
             ]
         },
     ],
+]
 
+dEw_duwn = [
+    [
+        {
+            "strL": [
+                {
+                    "stri": "duwn", 
+                    "strTyp": "lem",
+                },
+                {
+                    "stri": "dEw", 
+                    "strTyp": "root",
+                    "frm": "i",
+                    # "poSp ": "V",
+            "wrdDisPos": 3,
+                },
+            ],
+        },
+    ],
+]
+
+dEw_baEd = [
+    [
+        {
+            "strL": [
+                {
+                    "stri": "baEod", 
+                    "strTyp": "lem",
+                },
+                {
+                    "stri": "dEw", 
+                    "strTyp": "root",
+                    "frm": "i",
+                    # "poSp ": "V",
+            "wrdDisPos": 3,
+                },
+            ],
+        },
+    ],
+]
+
+dEw_ghayr = [
+    [
+        {
+            "strL": [
+                {
+                    "stri": "gayor", 
+                    "strTyp": "lem",
+                },
+                {
+                    "stri": "dEw", 
+                    "strTyp": "root",
+                    "frm": "i",
+                    # "poSp ": "V",
+            "wrdDisPos": 3,
+                },
+            ],
+        },
+    ],
+]
+
+dEw_duwn_baEd_ghayr = [
+    *dEw_duwn,
+    *dEw_baEd,
+    *dEw_ghayr,
+]
+
+waliy_ittikhadh_duwn = [
+    [
+        {
+            "strL": [
+                {
+                    "stri": "Ax*",
+                    "strTyp": "root",
+                     "poSp": "V",
+                     "frm": "viii",
+                },
+                {
+                    "stri": "duwn", 
+                    "strTyp": "lem",
+                },
+                {
+                    "stri": "waliY~", 
+                    "strTyp": "lem",
+            "wrdDisPos": 6
+                },
+            ],
+        },
+    ],    
+]
+
+waliy_duwn = [
+    *waliy_ittikhadh_duwn,
+    [
+        {
+            "strL": [
+                {
+                    "stri": "duwn", 
+                    "strTyp": "lem",
+                },
+                {
+                    "stri": "waliY~", 
+                    "strTyp": "lem",
+            "wrdDisPos": 3,
+                },
+            ],
+        },
+    ],
+]
+
+ilah_ittikhadh_duwn = [
+    [
+        {
+            "strL": [
+                {
+                    "stri": "Ax*",
+                    "strTyp": "root",
+                     "poSp": "V",
+                     "frm": "viii",
+                },
+                {
+                    "stri": "duwn", 
+                    "strTyp": "lem",
+                },
+                {
+                    "stri": "<ila`h", 
+                    "strTyp": "lem",
+            "wrdDisPos": 6,
+                },
+            ],
+        },
+    ],    
+]
+
+waliy_ittikhadh_duwn = [
+    [
+        {
+            "strL": [
+                {
+                    "stri": "Ax*",
+                    "strTyp": "root",
+                     "poSp": "V",
+                     "frm": "viii",
+                },
+                {
+                    "stri": "duwn", 
+                    "strTyp": "lem",
+                },
+                {
+                    "stri": "waliY~", 
+                    "strTyp": "lem",
+            "wrdDisPos": 6
+                },
+            ],
+        },
+    ],    
+]
+
+waliy_duwn = [
+    *waliy_ittikhadh_duwn,
+    [
+        {
+            "strL": [
+                {
+                    "stri": "duwn", 
+                    "strTyp": "lem",
+                },
+                {
+                    "stri": "waliY~", 
+                    "strTyp": "lem",
+            "wrdDisPos": 3,
+                },
+            ],
+        },
+    ],
+]
+
+ilah_ittikhadh_duwn = [
+    [
+        {
+            "strL": [
+                {
+                    "stri": "Ax*",
+                    "strTyp": "root",
+                     "poSp": "V",
+                     "frm": "viii",
+                },
+                {
+                    "stri": "duwn", 
+                    "strTyp": "lem",
+                },
+                {
+                    "stri": "<ila`h", 
+                    "strTyp": "lem",
+            "wrdDisPos": 6,
+                },
+            ],
+        },
+    ],    
+]
+
+ilah_duwn = [
+    *ilah_ittikhadh_duwn,
+    [
+        {
+            "strL": [
+                {
+                    "stri": "duwn", 
+                    "strTyp": "lem",
+                },
+                {
+                    "stri": "<ila`h", 
+                    "strTyp": "lem",
+            "wrdDisPos": 3
+                },
+            ],
+        },
+    ],
+]
+
+waliy_ittikhadh_baEd = [
+    [
+        {
+            "strL": [
+                {
+                    "stri": "Ax*",
+                    "strTyp": "root",
+                     "poSp": "V",
+                     "frm": "viii",
+                },
+                {
+                    "stri": "baEod", 
+                    "strTyp": "lem",
+                },
+                {
+                    "stri": "waliY~", 
+                    "strTyp": "lem",
+            "wrdDisPos": 6
+                },
+            ],
+        },
+    ],    
+]
+
+waliy_baEd = [
+    *waliy_ittikhadh_baEd,
+    [
+        {
+            "strL": [
+                {
+                    "stri": "baEod", 
+                    "strTyp": "lem",
+                },
+                {
+                    "stri": "waliY~", 
+                    "strTyp": "lem",
+            "wrdDisPos": 3,
+                },
+            ],
+        },
+    ],
+]
+
+ilah_ittikhadh_baEd = [
+    [
+        {
+            "strL": [
+                {
+                    "stri": "Ax*",
+                    "strTyp": "root",
+                     "poSp": "V",
+                     "frm": "viii",
+                },
+                {
+                    "stri": "baEod", 
+                    "strTyp": "lem",
+                },
+                {
+                    "stri": "<ila`h", 
+                    "strTyp": "lem",
+            "wrdDisPos": 6,
+                },
+            ],
+        },
+    ],    
+]
+
+ilah_baEd = [
+    *ilah_ittikhadh_baEd,
+    [
+        {
+            "strL": [
+                {
+                    "stri": "baEod", 
+                    "strTyp": "lem",
+                },
+                {
+                    "stri": "<ila`h", 
+                    "strTyp": "lem",
+            "wrdDisPos": 3
+                },
+            ],
+        },
+    ],
+]
+
+waliy_ittikhadh_ghayr = [
+    [
+        {
+            "strL": [
+                {
+                    "stri": "Ax*",
+                    "strTyp": "root",
+                     "poSp": "V",
+                     "frm": "viii",
+                },
+                {
+                    "stri": "gayor", 
+                    "strTyp": "lem",
+                },
+                {
+                    "stri": "waliY~", 
+                    "strTyp": "lem",
+            "wrdDisPos": 6
+                },
+            ],
+        },
+    ],    
+]
+
+waliy_ghayr = [
+    *waliy_ittikhadh_ghayr,
+    [
+        {
+            "strL": [
+                {
+                    "stri": "gayor", 
+                    "strTyp": "lem",
+                },
+                {
+                    "stri": "waliY~", 
+                    "strTyp": "lem",
+            "wrdDisPos": 3,
+                },
+            ],
+        },
+    ],
+]
+
+ilah_ittikhadh_ghayr = [
+    [
+        {
+            "strL": [
+                {
+                    "stri": "Ax*",
+                    "strTyp": "root",
+                     "poSp": "V",
+                     "frm": "viii",
+                },
+                {
+                    "stri": "gayor", 
+                    "strTyp": "lem",
+                },
+                {
+                    "stri": "<ila`h", 
+                    "strTyp": "lem",
+            "wrdDisPos": 6,
+                },
+            ],
+        },
+    ],    
+]
+
+ilah_ghayr = [
+    *ilah_ittikhadh_ghayr,
+    [
+        {
+            "strL": [
+                {
+                    "stri": "gayor", 
+                    "strTyp": "lem",
+                },
+                {
+                    "stri": "<ila`h", 
+                    "strTyp": "lem",
+            "wrdDisPos": 3
+                },
+            ],
+        },
+    ],
+]
+
+waliy_duwn_baEd_gayr = [
+  *waliy_duwn,
+  *waliy_ghayr,
+  *waliy_baEd,
+]
+
+ilah_duwn_baEd_gayr = [
+  *ilah_duwn,
+  *ilah_ghayr,
+  *ilah_baEd,
 ]
 
 dEw = [
