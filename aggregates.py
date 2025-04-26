@@ -5446,7 +5446,6 @@ salah = [
   *rkE,
   *Slw,
   *sbH,
-  *sbH_zlf_lyl_trf_nhr,
   *kbr,
   *qiyam_layl,
   *qwm_Slw,

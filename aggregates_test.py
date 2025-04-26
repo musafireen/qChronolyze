@@ -2058,8 +2058,37 @@ ana_layl_sbH = [
   ],
 ]
 
+sbH_trf_nhr = [
+  [
+    {
+      "strL": [
+         {
+           "stri": 'sbH',
+           "strTyp": 'root',
+           ##"poSp": 'V',
+         },
+         {
+             "stri": 'Taraf',
+             "strTyp": 'lem',
+             ##"poSp": 'V',
+            #  'wrdDisPos': 1,
+
+         },
+                  {
+             "stri": 'nahaAr',
+             "strTyp": 'lem',
+             ##"poSp": 'V',
+            #  'wrdDisPos': 1,
+
+         },
+      ]
+    }
+  ],
+]
+
 sbH = [
     *ana_layl_sbH,
+    *sbH_trf_nhr,
    [
     {
       "strL": [
@@ -2119,59 +2148,6 @@ sbH = [
   ],
 ]
 
-sbH_zlf_lyl_trf_nhr = [
-  [
-    {
-      "strL": [
-         {
-           "stri": 'sbH',
-           "strTyp": 'root',
-           ##"poSp": 'V',
-         },
-         {
-             "stri": 'Taraf',
-             "strTyp": 'lem',
-             ##"poSp": 'V',
-            #  'wrdDisPos': 1,
-
-         },
-                  {
-             "stri": 'nahaAr',
-             "strTyp": 'lem',
-             ##"poSp": 'V',
-            #  'wrdDisPos': 1,
-
-         },
-      ]
-    }
-  ],
-  [
-    {
-      "strL": [
-         {
-           "stri": 'sbH',
-           "strTyp": 'root',
-           ##"poSp": 'V',
-         },
-         {
-             "stri": 'zulofap',
-             "strTyp": 'lem',
-             ##"poSp": 'V',
-            #  'wrdDisPos': 1,
-
-         },
-                  {
-             "stri": 'layol',
-             "strTyp": 'lem',
-             ##"poSp": 'V',
-            #  'wrdDisPos': 1,
-
-         },
-      ]
-    }
-  ],
-]
-
 kbr = [
         [
     {
@@ -2220,8 +2196,8 @@ qiyam_layl = [
   ],
 ]
 
-qwm_Slw = [
-        [
+iqam_Slw_trf_nhr = [
+  [
     {
       "strL": [
          {
@@ -2233,28 +2209,74 @@ qwm_Slw = [
          {
              "stri": 'Salaw`p',
              "strTyp": 'lem',
+         },
+         {
+             "stri": 'Taraf',
+             "strTyp": 'lem',
              ##"poSp": 'V',
             #  'wrdDisPos': 1,
 
-         }
+         },
+                  {
+             "stri": 'nahaAr',
+             "strTyp": 'lem',
+             ##"poSp": 'V',
+            #  'wrdDisPos': 1,
+
+         },
       ]
     }
   ],
-      [
+]
+
+iqam_Slw_zlf_lyl = [
+  [
     {
       "strL": [
          {
            "stri": 'qwm',
            "strTyp": 'root',
            "poSp": 'V',
-           "frm": 'i'
+           "frm": 'iv'
          },
          {
              "stri": 'Salaw`p',
              "strTyp": 'lem',
+         },
+         {
+             "stri": 'zulofap',
+             "strTyp": 'lem',
              ##"poSp": 'V',
             #  'wrdDisPos': 1,
 
+         },
+                  {
+             "stri": 'layol',
+             "strTyp": 'lem',
+             ##"poSp": 'V',
+            #  'wrdDisPos': 1,
+
+         },
+      ]
+    }
+  ],
+]
+
+iqam_Slw = [
+  *iqam_Slw_trf_nhr,
+  *iqam_Slw_zlf_lyl,
+  [
+    {
+      "strL": [
+         {
+           "stri": 'qwm',
+           "strTyp": 'root',
+           "poSp": 'V',
+           "frm": 'iv'
+         },
+         {
+             "stri": 'Salaw`p',
+             "strTyp": 'lem',
          }
       ]
     }
@@ -2284,6 +2306,29 @@ qwm_Slw = [
            "stri": '<iqaAmat',
            "strTyp": 'lem',
            ##"poSp": 'V',
+         },
+         {
+             "stri": 'Salaw`p',
+             "strTyp": 'lem',
+             ##"poSp": 'V',
+            #  'wrdDisPos': 1,
+
+         }
+      ]
+    }
+  ],
+]
+
+qwm_Slw = [
+  *iqam_Slw,
+  [
+    {
+      "strL": [
+         {
+           "stri": 'qwm',
+           "strTyp": 'root',
+           "poSp": 'V',
+           "frm": 'i'
          },
          {
              "stri": 'Salaw`p',
