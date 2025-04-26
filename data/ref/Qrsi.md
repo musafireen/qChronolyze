@@ -4656,7 +4656,10 @@ but they gave the lie to Our Signs, to all of them. Thereupon We seized them wit
 
 Are your unbelievers (of Makkah) any better than they? Or have you been granted any immunity in the Scriptures?
 
+## r54.3.3
 
+[Q.54.47-55](https://www.islamicstudies.info/tafheem.php?sura=54&verse=41&to=55)
+54.47-55
 ### 54:47
 إِنَّ ٱلْمُجْرِمِينَ فِى ضَلَـٰلٍ وَسُعُرٍ
 
@@ -5304,16 +5307,7 @@ You will know the truth of the matter after a while.”
 7.1-10
 
 ![[#r7.1.1]]
-![[#r7.10.1]]
-![[#r7.11.1]]
-![[#r7.12.1]]
-![[#r7.13.1]]
-![[#r7.14.1]]
-![[#r7.15.1]]
-![[#r7.16.1]]
-![[#r7.17.1]]
-![[#r7.18.1]]
-![[#r7.19.1]]
+
 ## r7.1.1
 
 [Q.7.1-10](https://www.islamicstudies.info/tafheem.php?sura=7&verse=1&to=10)
@@ -5385,12 +5379,7 @@ We assuredly established you in the earth and arranged for your livelihood in it
 7.11-25
 
 ![[#r7.2.1]]
-![[#r7.20.1]]
-![[#r7.21.1]]
-![[#r7.21.2]]
-![[#r7.22.1]]
-![[#r7.23.1]]
-![[#r7.24.1]]
+
 ## r7.2.1
 
 [Q.7.11-25](https://www.islamicstudies.info/tafheem.php?sura=7&verse=11&to=25)
@@ -6653,7 +6642,7 @@ Tell them \[O Muhammad\]: 'I have no power to benefit or harm myself except as A
 7.189-206
 
 ### 7:189
-۞ هُوَ ٱلَّذِى خَلَقَكُم مِّن نَّفْسٍ وَٰحِدَةٍ وَجَعَلَ مِنْهَا زَوْجَهَا لِيَسْكُنَ إِلَيْهَا ۖ فَلَمَّا تَغَشَّىٰهَا حَمَلَتْ حَمْلًا خَفِيفًا فَمَرَّتْ بِهِۦ ۖ فَلَمَّآ أَثْقَلَت دَّعَوَا ٱللَّهَ رَبَّهُمَا لَئِنْ ءَاتَيْتَنَا صَـٰلِحًا لَّنَكُونَنَّ مِنَ ٱلشَّـٰكِرِينَ
+۞ هُوَ ٱلَّذِى خَلَقَكُم مِّن نَّفْسٍ وَٰحِدَةٍ وَجَعَلَ مِنْهَا زَوْجَهَا لِيَسْكُنَ إِلَيْهَا ۖ فَلَمَّا تَغَشَّىهَا حَمَلَتْ حَمْلًا خَفِيفًا فَمَرَّتْ بِهِۦ ۖ فَلَمَّآ أَثْقَلَت دَّعَوَا ٱللَّهَ رَبَّهُمَا لَئِنْ ءَاتَيْتَنَا صَـٰلِحًا لَّنَكُونَنَّ مِنَ ٱلشَّـٰكِرِينَ
 
 It is He - Allah -Who created you from a single being, and out of it He made its mate, that he may find comfort in her. And when he covers her, she bears a light burden and goes about with it. Then, when she grows heavy, they pray to their Lord: 'If You bestow upon us a healthy child, we will surely give thanks.'
 
@@ -13215,7 +13204,7 @@ and do not invoke any god beside Allah. There is no god but He. All will perish 
 17.1-10
 
 ![[#r17.1.1]]
-![[#r17.10.1]]
+
 ## r17.1.1
 
 [Q.17.1-10](https://www.islamicstudies.info/tafheem.php?sura=17&verse=1&to=10)
@@ -13936,10 +13925,7 @@ And say: "All praise be to Allah Who has neither taken to Himself a son, nor has
 10.1-10
 
 ![[#r10.1.1]]
-![[#r10.10.1]]
-![[#r10.10.2]]
-![[#r10.10.3]]
-![[#r10.11.1]]
+
 ## r10.1.1
 
 [Q.10.1-10](https://www.islamicstudies.info/tafheem.php?sura=10&verse=1&to=10)
@@ -14701,8 +14687,7 @@ And follow, (O Prophet!), whatever is revealed to you, and remain patient until 
 11.1-8
 
 ![[#r11.1.1]]
-![[#r11.10.1]]
-![[#r11.10.2]]
+
 ## r11.1.1
 
 [Q.11.1-8](https://www.islamicstudies.info/tafheem.php?sura=11&verse=1&to=8)
@@ -15568,6 +15553,11 @@ His father said: "My son! Do not relate your dream to your brothers lest they ha
 
 (As you have seen in the dream), so will your Lord choose you (for His task) and will impart to you the comprehension of the deeper meaning of things and will bestow the full measure of His favour upon you and upon the house of Jacob even as He earlier bestowed it in full measure upon your forefathers, Abraham and Isaac. Surely your Lord is All- Knowing, All-Wise."
 
+
+## r12.2.2
+
+[Q.12.8-20](https://www.islamicstudies.info/tafheem.php?sura=12&verse=8&to=20)
+12.8-20
 
 ### 12:8
 إِذْ قَالُوا۟ لَيُوسُفُ وَأَخُوهُ أَحَبُّ إِلَىٰٓ أَبِينَا مِنَّا وَنَحْنُ عُصْبَةٌ إِنَّ أَبَانَا لَفِى ضَلَـٰلٍ مُّبِينٍ
@@ -16974,19 +16964,7 @@ and worship your Lord until the last moment (of your life) that will most certai
 6.1-10
 
 ![[#r6.1.1]]
-![[#r6.10.1]]
-![[#r6.11.1]]
-![[#r6.11.2]]
-![[#r6.12.1]]
-![[#r6.13.1]]
-![[#r6.14.1]]
-![[#r6.14.2]]
-![[#r6.15.1]]
-![[#r6.16.1]]
-![[#r6.17.1]]
-![[#r6.18.1]]
-![[#r6.19.1]]
-![[#r6.19.2]]
+
 ## r6.1.1
 
 [Q.6.1-10](https://www.islamicstudies.info/tafheem.php?sura=6&verse=1&to=10)
@@ -17059,7 +17037,7 @@ And indeed before your time (O Muhammad!) many a Messenger has been scoffed at; 
 
 ![[#r6.2.1]]
 ![[#r6.2.2]]
-![[#r6.20.1]]
+
 ## r6.2.1
 
 [Q.6.11-19](https://www.islamicstudies.info/tafheem.php?sura=6&verse=11&to=19)
@@ -17126,6 +17104,7 @@ Ask them: 'Whose testimony is the greatest?' Say: 'Allah is the witness between 
 
 ![[#r6.3.1]]
 ![[#r6.3.2]]
+![[Qrsi#r6.3.3]]
 ## r6.3.1
 
 [Q.6.21-22](https://www.islamicstudies.info/tafheem.php?sura=6&verse=21&to=22)
@@ -23901,9 +23880,7 @@ and then it is for Us to call them to account.
 18.1-12
 
 ![[#r18.1.1]]
-![[#r18.10.1]]
-![[#r18.11.1]]
-![[#r18.12.1]]
+
 ## r18.1.1
 
 [Q.18.1-12](https://www.islamicstudies.info/tafheem.php?sura=18&verse=1&to=12)
@@ -24573,14 +24550,7 @@ Say (O Muhammad): "I am no more than a human being like you; one to whom revelat
 16.1-9
 
 ![[#r16.1.1]]
-![[#r16.10.1]]
-![[#r16.11.1]]
-![[#r16.12.1]]
-![[#r16.13.1]]
-![[#r16.14.1]]
-![[#r16.15.1]]
-![[#r16.16.1]]
-![[#r16.16.2]]
+
 ## r16.1.1
 
 [Q.16.1-9](https://www.islamicstudies.info/tafheem.php?sura=16&verse=1&to=9)
@@ -26773,7 +26743,7 @@ On that Day We shall roll up the heavens like a scroll for writing. Even as We o
 ### 21:105
 وَلَقَدْ كَتَبْنَا فِى ٱلزَّبُورِ مِنۢ بَعْدِ ٱلذِّكْرِ أَنَّ ٱلْأَرْضَ يَرِثُهَا عِبَادِىَ ٱلصَّـٰلِحُونَ
 
-Surely We wrote in the Psalms, after the exhortation, that the earth shall be inherited by My righteous servants.
+Surely We wrote in the Psalms, after the exhortation, that the earth shall be inherited by My righteous servants.[[bbl.poetry#psalms#c37#11]]
 
 
 ### 21:106
@@ -31565,9 +31535,7 @@ And establish the Prayer at the two ends of the day and in the first hours of th
 
 ![[#r12.1.1]]
 ![[#r12.1.2]]
-![[#r12.10.1]]
-![[#r12.11.1]]
-![[#r12.12.1]]
+
 ## r12.1.1
 
 [Q.12.1-3](https://www.islamicstudies.info/tafheem.php?sura=12&verse=1&to=3)
@@ -31597,10 +31565,11 @@ We have revealed it as a Recitation1 in Arabic that you may fully understand2.
 12.7-20
 
 ![[#r12.2.1]]
+![[#r12.2.2]]
 ## r12.2.1
 
-[Q.12.7-20](https://www.islamicstudies.info/tafheem.php?sura=12&verse=7&to=20)
-12.7-20
+[Q.12.7](https://www.islamicstudies.info/tafheem.php?sura=12&verse=7&to=7)
+12.7-7
 
 ### 12:7
 ۞ لَّقَدْ كَانَ فِى يُوسُفَ وَإِخْوَتِهِۦٓ ءَايَـٰتٌ لِّلسَّآئِلِينَ
@@ -31631,8 +31600,8 @@ Those whom We have given the Book will recognize this just as they recognize the
 
 ## r6.3.2
 
-[Q.6.23-30](https://www.islamicstudies.info/tafheem.php?sura=6&verse=23&to=30)
-6.23-30
+[Q.6.23-23](https://www.islamicstudies.info/tafheem.php?sura=6&verse=23&to=23)
+6.23-23
 
 ### 6:23
 ثُمَّ لَمْ تَكُن فِتْنَتُهُمْ إِلَّآ أَن قَالُوا۟ وَٱللَّهِ رَبِّنَا مَا كُنَّا مُشْرِكِينَ
@@ -32184,16 +32153,7 @@ The unbelievers will not cease to be in doubt about it until the Hour suddenly c
 2.1-7
 
 ![[#r2.1.1]]
-![[#r2.10.1]]
-![[#r2.11.1]]
-![[#r2.12.1]]
-![[#r2.13.1]]
-![[#r2.14.1]]
-![[#r2.15.1]]
-![[#r2.16.1]]
-![[#r2.17.1]]
-![[#r2.18.1]]
-![[#r2.19.1]]
+
 ## r2.1.1
 
 [Q.2.1-7](https://www.islamicstudies.info/tafheem.php?sura=2&verse=1&to=7)
@@ -32247,16 +32207,7 @@ Allah has sealed up their hearts and ears and a covering has fallen over their e
 2.8-20
 
 ![[#r2.2.1]]
-![[#r2.20.1]]
-![[#r2.21.1]]
-![[#r2.22.1]]
-![[#r2.23.1]]
-![[#r2.24.1]]
-![[#r2.25.1]]
-![[#r2.26.1]]
-![[#r2.27.1]]
-![[#r2.28.1]]
-![[#r2.29.1]]
+
 ## r2.2.1
 
 [Q.2.8-20](https://www.islamicstudies.info/tafheem.php?sura=2&verse=8&to=20)
@@ -32346,17 +32297,7 @@ The lightning terrifies them as if it were going to snatch away their eyesight f
 2.21-29
 
 ![[#r2.3.1]]
-![[#r2.30.1]]
-![[#r2.31.1]]
-![[#r2.32.1]]
-![[#r2.33.1]]
-![[#r2.34.1]]
-![[#r2.35.1]]
-![[#r2.36.1]]
-![[#r2.37.1]]
-![[#r2.38.1]]
-![[#r2.38.2]]
-![[#r2.39.1]]
+
 ## r2.3.1
 
 [Q.2.21-29](https://www.islamicstudies.info/tafheem.php?sura=2&verse=21&to=29)
@@ -32422,7 +32363,7 @@ He it is Who created for you all that there is on the Earth; He then turned to t
 2.30-39
 
 ![[#r2.4.1]]
-![[#r2.40.1]]
+
 ## r2.4.1
 
 [Q.2.30-39](https://www.islamicstudies.info/tafheem.php?sura=2&verse=30&to=39)
@@ -34370,7 +34311,7 @@ Allah does not burden any human being with a responsibility heavier than he can 
 8.1-10
 
 ![[#r8.1.1]]
-![[#r8.10.1]]
+
 ## r8.1.1
 
 [Q.8.1-10](https://www.islamicstudies.info/tafheem.php?sura=8&verse=1&to=10)
@@ -34897,16 +34838,7 @@ And those who believed afterwards and migrated and strove along with you: they b
 3.1-9
 
 ![[#r3.1.1]]
-![[#r3.10.1]]
-![[#r3.11.1]]
-![[#r3.12.1]]
-![[#r3.13.1]]
-![[#r3.14.1]]
-![[#r3.15.1]]
-![[#r3.16.1]]
-![[#r3.17.1]]
-![[#r3.18.1]]
-![[#r3.19.1]]
+
 ## r3.1.1
 
 [Q.3.1-9](https://www.islamicstudies.info/tafheem.php?sura=3&verse=1&to=9)
@@ -34972,7 +34904,7 @@ Our Lord! You surely will gather mankind together one Day, a Day about (the comi
 3.10-20
 
 ![[#r3.2.1]]
-![[#r3.20.1]]
+
 ## r3.2.1
 
 [Q.3.10-20](https://www.islamicstudies.info/tafheem.php?sura=3&verse=10&to=20)
@@ -36971,16 +36903,7 @@ Believers, do not make friends with those against whom Allah is wrathful and who
 4.1-10
 
 ![[#r4.1.1]]
-![[#r4.10.1]]
-![[#r4.11.1]]
-![[#r4.12.1]]
-![[#r4.13.1]]
-![[#r4.14.1]]
-![[#r4.15.1]]
-![[#r4.16.1]]
-![[#r4.17.1]]
-![[#r4.18.1]]
-![[#r4.19.1]]
+
 ## r4.1.1
 
 [Q.4.1-10](https://www.islamicstudies.info/tafheem.php?sura=4&verse=1&to=10)
@@ -37052,11 +36975,7 @@ Behold, those who wrongfully devour the properties of orphans only fill their be
 4.11-14
 
 ![[#r4.2.1]]
-![[#r4.20.1]]
-![[#r4.21.1]]
-![[#r4.22.1]]
-![[#r4.23.1]]
-![[#r4.24.1]]
+
 ## r4.2.1
 
 [Q.4.11-14](https://www.islamicstudies.info/tafheem.php?sura=4&verse=11&to=14)
@@ -40710,7 +40629,7 @@ Beware! whatever is in the heavens and the earth belongs to Allah. He knows what
 22.1-10
 
 ![[#r22.1.1]]
-![[#r22.10.1]]
+
 ## r22.1.1
 
 [Q.22.1-10](https://www.islamicstudies.info/tafheem.php?sura=22&verse=1&to=10)
@@ -43191,14 +43110,7 @@ To Allah belongs the dominion of the heavens and the earth and all that is in th
 9.1-10
 
 ![[#r9.1.1]]
-![[#r9.10.1]]
-![[#r9.11.1]]
-![[#r9.12.1]]
-![[#r9.13.1]]
-![[#r9.14.1]]
-![[#r9.15.1]]
-![[#r9.16.1]]
-![[#r9.16.2]]
+
 ## r9.1.1
 
 [Q.9.1-10](https://www.islamicstudies.info/tafheem.php?sura=9&verse=1&to=10)
