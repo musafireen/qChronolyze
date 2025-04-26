@@ -10,7 +10,7 @@ import copy
 with open("data/suAyRuk.json") as f:
     suAyRukObj = json.loads(f.read())
 
-def qChronoMd(dicti,flnm,refLng,qyArLegSch=lng2InpSchD["arabic"][1]):
+def qChronoMd(dicti,flnm,refLng,qyArLegSch=lng2InpSchD["arabic"][1],isRuk=True):
     # instLstAgg = []
     tafs = tafsDict[refLng]
     alreadyRefed = []
@@ -40,13 +40,20 @@ def qChronoMd(dicti,flnm,refLng,qyArLegSch=lng2InpSchD["arabic"][1]):
 
     frstAys = {}
 
+    rukAlready = []
+
     for rec in sortedRecs:
         suAy = rec["surah_ayah"]
         if suAy not in newDic.keys():
             newDic[suAy] = {
                 'string': f'\n[Q.{suAy}](https://quran.com/{suAy}/tafsirs/{tafs})\n'
-                            + f'\n![[Qrsi#{suAyRukObj[suAy]}]]\n',
-                            # + f'\n![[Qrsi#{suAy}]]\n',
+                            + f'\n![[Qrsi#'
+                            + suAyRukObj[suAy] 
+                            if isRuk == True and suAyRukObj[suAy] not in rukAlready else 
+                            suAy
+                            +']]\n'
+                            # + f'\n![[Qrsi#{}]]\n'
+                            ,
                 # 'queries': [
                 #     {
                 #         'query': rec["query"],
@@ -57,6 +64,11 @@ def qChronoMd(dicti,flnm,refLng,qyArLegSch=lng2InpSchD["arabic"][1]):
                     rec["query"]: '\n\n'
                 }
             }
+
+            if isRuk == True and suAyRukObj[suAy] not in rukAlready:
+                rukAlready.append(suAyRukObj[suAy])
+
+
         else:
             # newDic[rec["surah_ayah"]]["queries"].append(
             #     {
