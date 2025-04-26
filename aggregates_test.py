@@ -2454,7 +2454,7 @@ qnt_ana_layl = [
 ]
 
 qnt_qwm = [
-    qnt_ana_layl,
+    *qnt_ana_layl,
     [
     {
       "strL": [
@@ -2474,8 +2474,8 @@ qnt_qwm = [
 ]
 
 qnt = [
-    qnt_ana_layl,
-    qnt_qwm,
+    *qnt_ana_layl,
+    *qnt_qwm,
     [
     {
       "strL": [
@@ -2602,11 +2602,11 @@ ghasaq_layl = [
 ]
 
 qabl_tulu_shams = [
-    sbH_qabl_tulu_shams,
+    *sbH_qabl_tulu_shams,
 ]
 
 qabl_ghurub_shams = [
-    sbH_qabl_ghurub_shams
+    *sbH_qabl_ghurub_shams
 ]
 
 Salah_wusta = [
@@ -2627,7 +2627,7 @@ Salah_wusta = [
 ]
 
 wusta = [
-  Salah_wusta
+  *Salah_wusta
 ]
 
 quran_fajr = [
@@ -2763,7 +2763,7 @@ salah_waqt = [
   *msw, 
   *iSbaH,
   *ashiyy,
-  *iZhar
+  *iZhar,
   *fajr,
   *qabl_ghurub_shams,
   *qabl_tulu_shams,
