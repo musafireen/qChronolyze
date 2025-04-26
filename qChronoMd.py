@@ -48,9 +48,9 @@ def qChronoMd(dicti,flnm,refLng,qyArLegSch=lng2InpSchD["arabic"][1],isRuk=True):
             newDic[suAy] = {
                 'string': f'\n[Q.{suAy}](https://quran.com/{suAy}/tafsirs/{tafs})\n'
                             + f'\n![[Qrsi#'
-                            + suAyRukObj[suAy] 
+                            + (suAyRukObj[suAy] 
                             if isRuk == True and suAyRukObj[suAy] not in rukAlready else 
-                            suAy
+                            suAy)
                             +']]\n'
                             # + f'\n![[Qrsi#{}]]\n'
                             ,
