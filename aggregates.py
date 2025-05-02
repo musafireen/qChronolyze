@@ -3404,36 +3404,13 @@ heavenlies = [
 
 ]
 
-shirk2 = [
-        [
-    {
-      
-      "strL": [
-        { "stri": "$rk", "flt": "", "strTyp": "root",  "frm": "iv",  "poSp": "V", },
-      ],
-    },
-  ],
-        [
-    {
-      
-      "strL": [
-        { "stri": "mu$orik", "strTyp": "lem",},
-      ],
-    },
-  ],
+ilah = [
+  *ilah_duwn_baEd_gayr,
         [
     {
       
       "strL": [
         { "stri": "<ila`h", "strTyp": "lem",},
-      ],
-    },
-  ],
-        [
-    {
-      
-      "strL": [
-        { "stri": "a`lihap", "strTyp": "lem",},
       ],
     },
   ],
@@ -3654,6 +3631,7 @@ rituals = [
 
 shirk = [
     *ilah_duwn_baEd_gayr,
+    *ilah,
     *waliy_duwn_baEd_gayr,
     *shrk,
     *shaytan_shirk,
@@ -3663,17 +3641,6 @@ shirk = [
     # *heavenlies,
     *rituals,
     *evil_spirits,
-
-        [
-    {
-      "strL": [
-        { "stri": "Alh", "flt": "(?:^((?!Allah).)*$)",},
-        { 
-      "wrdDisPos": 1,
-            "stri": "dwn", "flt": "(?:other|esides|exclud|Us|instead)",},
-      ],
-    },
-  ],
         [
     {
       
