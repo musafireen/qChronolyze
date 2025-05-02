@@ -56,6 +56,9 @@ arbConsD = {
         "Y": "ى",
         "y": "ي",
         "{": "ٱ",
+    }
+
+arbSemiD = {
         # ":": "ۜ",
         "@": "۟",
         '"': "۠",
@@ -68,11 +71,12 @@ arbConsD = {
         "+": "۫",
         "%": "۬",
         "]": "ۭ",
-    }
+}
 
 bkwSch2arbSch = {
     **arbVwlsDict,
     **arbConsD,
+    **arbSemiD,
 }
 
 bkw2Ala = [
