@@ -79,6 +79,42 @@ bkwSch2arbSch = {
     **arbSemiD,
 }
 
+bkw2Simpl = [
+    (r"(?<!^)(.)(\1)\~","\\1\\1"),
+    (r"(?<!^)(.)\~","\\1\\1"),
+    (r"(?<=^)(.)\~","\\1"),
+    ("(?:iy|iY)(?![aiu])","i"),
+    ("uw(?![aiu])","u"),
+    (r"(?:ay`|aw`|aY\`|a\,\`|a\.\`|a\`|\`|aY|a\,|a\.|aA|A\^|\^)+","a"),
+    ("o",""),
+    ("F","an"),
+    ("N","un"),
+    ("K","in"),
+    (r"(?<=^)\{(?!l)","i"),
+    (r"(?<=^)\{(?=l)","a"),
+    (r"(?<=^)A(?!l)","i"),
+    (r"(?<=^)A(?=l)","a"),
+    (r"[\%\+\-\_]",""),
+    (r"(?<!^)[\>\<\&\}\#]",""),
+    (r"(?<=^)[\>\<\&\}\#]",""),
+    (r"\[","m"),
+    ("v","th"),
+    (r"\*","dh"),
+    ("T","t"),
+    ("!","n"),
+    ("D","d"),
+    ("Z","z"),
+    ("S","s"),
+    (r"\$","sh"),
+    ("x","kh"),
+    ("H","h"),
+    ("g","gh"),
+    ("E",""),
+    ("p","h"),
+    # ("A",""),
+    # ("[0-9]",""),
+]
+
 bkw2Ala = [
     (r"(?<!^)(.)(\1)\~","\\1\\1"),
     (r"(?<!^)(.)\~","\\1\\1"),
@@ -105,7 +141,7 @@ bkw2Ala = [
     ("D","ḍ"),
     ("Z","ẓ"),
     ("S","ṣ"),
-    (r"\$","sh"),
+    (r"\$","ś"),
     ("x","kh"),
     ("H","ḥ"),
     ("g","gh"),
@@ -230,6 +266,7 @@ lng2InpSchD = {
         "buckwalter_Scheme",
         "arabic_Scheme",
         "ALA_Scheme",
+        "simplified_Scheme",
     ],
     "bengali": [
         "bengali_Scheme"
@@ -241,6 +278,7 @@ lng2InpSchD = {
 inpLngSchD = {
     "buckwalter_Scheme": "bkwSch",
     "ALA_Scheme": "alaSch",
+    "simplified_Scheme": "simplSch",
     "arabic_Scheme": "arbSch",
     "bengali_Scheme": "bngSch",
     "english_Scheme": "engSch",
@@ -434,6 +472,7 @@ def rtTrns(rt,inpLng,inpSch,outSch=None):
                 "arbSch": bkwSch2arbSch,
                 "bkwSch": None,
                 "alaSch": bkw2Ala,
+                "simplSch": bkw2Simpl,
             },
             "iasSch": {
                 "arbSch": iasSch2arbSch,
@@ -462,7 +501,7 @@ def rtTrns(rt,inpLng,inpSch,outSch=None):
     rtTrn = ''
     # print("\n",inpSch,outSch,"\n")
     if (chrTrnsTbl != None):
-        if outSch == 'alaSch':
+        if outSch == 'alaSch' or outSch == 'simplSch':
             import re
             rtTrn = rt
             for chTrns in chrTrnsTbl:
