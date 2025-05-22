@@ -265,8 +265,8 @@ lng2InpSchD = {
     "arabic": [
         "buckwalter_Scheme",
         "arabic_Scheme",
-        "ALA_Scheme",
         "simplified_Scheme",
+        "ALA_Scheme",
     ],
     "bengali": [
         "bengali_Scheme"
@@ -482,6 +482,8 @@ def rtTrns(rt,inpLng,inpSch,outSch=None):
             "arbSch": {
                 "bkwSch": arbSch2bkwSch,
                 "arbSch": None,
+                "alaSch": None, # arb2Ala,
+                "simplSch": None, # arb2Simpl,
             },
         },
         "eng": {
@@ -1316,7 +1318,6 @@ class strObWdgCl:
     inpLngSt = strObjClass.inpLngSt
     inpSchSt = strObjClass.inpSchSt
     inpSchArSt = strObjClass.inpSchArSt
-    qyArLegSchSt = strObjClass.qy
     wrdDisPosSt = strObjClass.wrdDisPosSt
     wrdDisNegSt = strObjClass.wrdDisNegSt
     strUnwantedSt = strObjClass.strUnwantedSt
@@ -1352,7 +1353,7 @@ class strObWdgCl:
 
     def findM(self,button,
                    ):
-        self.striW.value = striD[self.findW.value]["stri"][self.inpSchSt]
+        self.striW.value = striD[self.findW.value]["stri"][inpLngSchD[self.inpSchArSt]]
         self.strTypeW.value = striD[self.findW.value]["typ"]
         self.inpSchW.value = self.inpSchArSt
 
@@ -1367,7 +1368,7 @@ class strObWdgCl:
             description='Find',
             value=list(striD.keys())[0]
         )
-        self.striW = widg.Text(description=f"String",value=striD[self.findW.value]["stri"][self.inpSchArSt])
+        self.striW = widg.Text(description=f"String",value=striD[self.findW.value]["stri"][inpLngSchD[self.inpSchArSt]])
         self.fltW = widg.Text(description=f"Translation_filter")
         self.strTypeW = widg.Dropdown(options=strTypL, value=striD[self.findW.value]["typ"],description=f"String_type")
         self.poSpW = widg.Dropdown(options=poSpL, value=self.poSpSt,description=f"Part_of_speech")
