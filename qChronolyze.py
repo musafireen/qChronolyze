@@ -1347,6 +1347,11 @@ class strObWdgCl:
                 self.parentComb.strngs.remove(self.strContainer)
                 self.parentComb.comb_container.children = [w for w in self.parentComb.comb_container.children if w != self.strContainer]
 
+    def findM(self,button,
+                   ):
+        self.striW.value = striD[self.findW.value]["stri"]["arbSch"]
+        self.strTypeW.value = striD[self.findW.value]["typ"]
+
     def __init__(self,
                  parentComb,
                 ):
@@ -1358,7 +1363,7 @@ class strObWdgCl:
             description='String_Object',
             value=list(striD.keys())[0]
         )
-        self.striW = widg.Text(description=f"String_Object",value=striD[self.findW.value]["stri"]["arbSch"])
+        self.striW = widg.Text(description=f"Find",value=striD[self.findW.value]["stri"]["arbSch"])
         self.fltW = widg.Text(description=f"Translation_filter")
         self.strTypeW = widg.Dropdown(options=strTypL, value=striD[self.findW.value]["typ"],description=f"String_type")
         self.poSpW = widg.Dropdown(options=poSpL, value=self.poSpSt,description=f"Part_of_speech")
@@ -1367,8 +1372,10 @@ class strObWdgCl:
         self.inpSchW = widg.Dropdown(description=f"Input_scheme")
         self.entStrObjB = widg.Button(description=f"Enter String Object")
         self.delStrObjB = widg.Button(description=f"Delete String Object")
+        self.findB = widg.Button(description=f"Find")
         self.entStrObjB.on_click(self.entStrObjM)
         self.delStrObjB.on_click(self.delStrObjM)
+        self.findB.on_click(self.findM)
         self.inpLngW.observe(self.update_language_scheme_options)
         self.update_language_scheme_options(self)
 
@@ -1391,6 +1398,7 @@ class strObWdgCl:
                 self.entStrObjB,
                 self.delStrObjB,
                 self.findW,
+                self.findB,
             ]
         )
 
