@@ -1390,6 +1390,7 @@ class strObWdgCl:
                 self.strUnwantedW,
                 self.entStrObjB,
                 self.delStrObjB,
+                self.findW,
             ]
         )
 
