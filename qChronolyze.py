@@ -1363,7 +1363,7 @@ class strObWdgCl:
             description='String_Object',
             value=list(striD.keys())[0]
         )
-        self.striW = widg.Text(description=f"Find",value=striD[self.findW.value]["stri"]["arbSch"])
+        self.striW = widg.Text(description=f"String",value=striD[self.findW.value]["stri"]["arbSch"])
         self.fltW = widg.Text(description=f"Translation_filter")
         self.strTypeW = widg.Dropdown(options=strTypL, value=striD[self.findW.value]["typ"],description=f"String_type")
         self.poSpW = widg.Dropdown(options=poSpL, value=self.poSpSt,description=f"Part_of_speech")
