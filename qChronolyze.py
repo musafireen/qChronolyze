@@ -1360,7 +1360,7 @@ class strObWdgCl:
         
         self.findW = widg.Combobox(
             options=list(striD.keys()),
-            description='String_Object',
+            description='Find',
             value=list(striD.keys())[0]
         )
         self.striW = widg.Text(description=f"String",value=striD[self.findW.value]["stri"]["arbSch"])
