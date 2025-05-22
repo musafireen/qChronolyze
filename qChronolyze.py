@@ -284,15 +284,16 @@ inpLngSchD = {
     "english_Scheme": "engSch",
 }
 
-
 import json
+with open('data/striD.json') as f:
+    striD = json.loads(f.read())
+
 with open('data/surAyPosStrAdvWrdMD.json') as f:
     surAyPosStrAdvWrdMD = json.loads(f.read())
 
 # with open("data/striSuAyPosWMD.json") as f:
 #     striSuAyPosWMD = json.loads(f.read())
 
-import json
 with open("posSerDict.json") as f:
     posSerDict = json.loads(f.read())
 
@@ -1352,9 +1353,14 @@ class strObWdgCl:
 
         self.parentComb = parentComb
         
-        self.striW = widg.Text(description=f"String_Object")
+        self.findW = widg.Combobox(
+            options=list(striD.keys()),
+            description='String_Object',
+            value=list(striD.keys())[0]
+        )
+        self.striW = widg.Text(description=f"String_Object",value=striD[self.findW.value]["stri"]["arbSch"])
         self.fltW = widg.Text(description=f"Translation_filter")
-        self.strTypeW = widg.Dropdown(options=strTypL, value=self.strTypSt,description=f"String_type")
+        self.strTypeW = widg.Dropdown(options=strTypL, value=striD[self.findW.value]["typ"],description=f"String_type")
         self.poSpW = widg.Dropdown(options=poSpL, value=self.poSpSt,description=f"Part_of_speech")
         self.frmW = widg.Dropdown(options=frmL, value=self.frmSt,description=f"Form")
         self.inpLngW = widg.Dropdown(options=lngL[:-1], value=self.inpLngSt,description=f"Input_language")
