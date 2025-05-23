@@ -56,6 +56,9 @@ arbConsD = {
         "Y": "ى",
         "y": "ي",
         "{": "ٱ",
+    }
+
+arbSemiD = {
         # ":": "ۜ",
         "@": "۟",
         '"': "۠",
@@ -68,12 +71,49 @@ arbConsD = {
         "+": "۫",
         "%": "۬",
         "]": "ۭ",
-    }
+}
 
 bkwSch2arbSch = {
     **arbVwlsDict,
     **arbConsD,
+    **arbSemiD,
 }
+
+bkw2Simpl = [
+    (r"(?<!^)(.)(\1)\~","\\1\\1"),
+    (r"(?<!^)(.)\~","\\1\\1"),
+    (r"(?<=^)(.)\~","\\1"),
+    ("(?:iy|iY)(?![aiu])","i"),
+    ("uw(?![aiu])","u"),
+    (r"(?:ay`|aw`|aY\`|a\,\`|a\.\`|a\`|\`|aY|a\,|a\.|aA|A\^|\^)+","a"),
+    ("o",""),
+    ("F","an"),
+    ("N","un"),
+    ("K","in"),
+    (r"(?<=^)\{(?!l)","i"),
+    (r"(?<=^)\{(?=l)","a"),
+    (r"(?<=^)A(?!l)","i"),
+    (r"(?<=^)A(?=l)","a"),
+    (r"[\%\+\-\_]",""),
+    (r"(?<!^)[\>\<\&\}\#]",""),
+    (r"(?<=^)[\>\<\&\}\#]",""),
+    (r"\[","m"),
+    ("v","th"),
+    (r"\*","dh"),
+    ("T","t"),
+    ("!","n"),
+    ("D","d"),
+    ("Z","z"),
+    ("S","s"),
+    (r"\$","sh"),
+    ("x","kh"),
+    ("H","h"),
+    ("g","gh"),
+    ("E",""),
+    ("p","h"),
+    # ("A",""),
+    # ("[0-9]",""),
+]
 
 bkw2Ala = [
     (r"(?<!^)(.)(\1)\~","\\1\\1"),
@@ -101,7 +141,7 @@ bkw2Ala = [
     ("D","ḍ"),
     ("Z","ẓ"),
     ("S","ṣ"),
-    (r"\$","sh"),
+    (r"\$","ś"),
     ("x","kh"),
     ("H","ḥ"),
     ("g","gh"),
@@ -225,6 +265,7 @@ lng2InpSchD = {
     "arabic": [
         "buckwalter_Scheme",
         "arabic_Scheme",
+        "simplified_Scheme",
         "ALA_Scheme",
     ],
     "bengali": [
@@ -237,20 +278,22 @@ lng2InpSchD = {
 inpLngSchD = {
     "buckwalter_Scheme": "bkwSch",
     "ALA_Scheme": "alaSch",
+    "simplified_Scheme": "simplSch",
     "arabic_Scheme": "arbSch",
     "bengali_Scheme": "bngSch",
     "english_Scheme": "engSch",
 }
 
-
 import json
+with open('data/striD.json') as f:
+    striD = json.loads(f.read())
+
 with open('data/surAyPosStrAdvWrdMD.json') as f:
     surAyPosStrAdvWrdMD = json.loads(f.read())
 
 # with open("data/striSuAyPosWMD.json") as f:
 #     striSuAyPosWMD = json.loads(f.read())
 
-import json
 with open("posSerDict.json") as f:
     posSerDict = json.loads(f.read())
 
@@ -430,6 +473,7 @@ def rtTrns(rt,inpLng,inpSch,outSch=None):
                 "arbSch": bkwSch2arbSch,
                 "bkwSch": None,
                 "alaSch": bkw2Ala,
+                "simplSch": bkw2Simpl,
             },
             "iasSch": {
                 "arbSch": iasSch2arbSch,
@@ -438,6 +482,8 @@ def rtTrns(rt,inpLng,inpSch,outSch=None):
             "arbSch": {
                 "bkwSch": arbSch2bkwSch,
                 "arbSch": None,
+                "alaSch": None, # arb2Ala,
+                "simplSch": None, # arb2Simpl,
             },
         },
         "eng": {
@@ -458,7 +504,7 @@ def rtTrns(rt,inpLng,inpSch,outSch=None):
     rtTrn = ''
     # print("\n",inpSch,outSch,"\n")
     if (chrTrnsTbl != None):
-        if outSch == 'alaSch':
+        if outSch == 'alaSch' or outSch == 'simplSch':
             import re
             rtTrn = rt
             for chTrns in chrTrnsTbl:
@@ -529,6 +575,15 @@ class row2DictCl:
         # self.ayah_link = f"<a{self.lnkStyle}>{ayTxt}</a> <a href='https://quran.com/{self.surah_ayah}/tafsirs/{tafs}'>Tafs</a>"
         self.query = query
     
+
+def qLModder(qL,qyArLegSch=lng2InpSchD["arabic"][-1]):
+    qLMod = [
+                # [combClass(**comb).combObj for comb in optLs]
+                [combClass(**comb,qyArLegSch=qyArLegSch) for comb in optLs]
+                for optLs in qL
+            ]
+    return qLMod
+
 
 def dataGrabber(strObj):
     flt = str(strObj.flt).lower()
@@ -1009,7 +1064,6 @@ def intersct(comb):
         print("please provide at least one root/word")
         return []
 
-
 def aggregLsts(
         qL,
         tafs="ar-tafsir-al-tabari",
@@ -1066,6 +1120,7 @@ def aggregLsts(
     print(f"\ntotal {len(instLstAgg)} instances found")
     return instLstAgg
 
+
 class strObjClass:
     # idx = 0
     wrdDisPosSt = sameVrsIndicator
@@ -1078,8 +1133,9 @@ class strObjClass:
     strTypSt='All'
     frmSt='All'
     poSpSt='All'
-    inpLngSt="arabic"
-    inpSchSt="buckwalter_Scheme"
+    inpLngSt=lngL[0]
+    inpSchSt=lng2InpSchD["arabic"][0]
+    inpSchArSt=lng2InpSchD["arabic"][1]
 
 
     def __init__(self,                
@@ -1140,7 +1196,9 @@ class strObjClass:
                     lngD[self.inpLng],
                     inpLngSchD[self.inpSch],
                     # "bkwSch",
-                    outSch=inpLngSchD[qyArLegSch] 
+                    outSch=inpLngSchD[self.inpSch]
+                    if self.strTyp == "stem" 
+                    else inpLngSchD[qyArLegSch] 
                     # outSch="arbSch"
                     if self.inpLng == "arabic" 
                     else None
@@ -1259,6 +1317,7 @@ class strObWdgCl:
     poSpSt = strObjClass.poSpSt
     inpLngSt = strObjClass.inpLngSt
     inpSchSt = strObjClass.inpSchSt
+    inpSchArSt = strObjClass.inpSchArSt
     wrdDisPosSt = strObjClass.wrdDisPosSt
     wrdDisNegSt = strObjClass.wrdDisNegSt
     strUnwantedSt = strObjClass.strUnwantedSt
@@ -1292,23 +1351,36 @@ class strObWdgCl:
                 self.parentComb.strngs.remove(self.strContainer)
                 self.parentComb.comb_container.children = [w for w in self.parentComb.comb_container.children if w != self.strContainer]
 
+    def findM(self,button,
+                   ):
+        self.striW.value = striD[self.findW.value]["stri"][inpLngSchD[self.inpSchArSt]]
+        self.strTypeW.value = striD[self.findW.value]["typ"]
+        self.inpSchW.value = self.inpSchArSt
+
     def __init__(self,
                  parentComb,
                 ):
 
         self.parentComb = parentComb
         
-        self.striW = widg.Text(description=f"String_Object")
+        self.findW = widg.Combobox(
+            options=list(striD.keys()),
+            description='Find',
+            value=list(striD.keys())[0]
+        )
+        self.striW = widg.Text(description=f"String",value=striD[self.findW.value]["stri"][inpLngSchD[self.inpSchArSt]])
         self.fltW = widg.Text(description=f"Translation_filter")
-        self.strTypeW = widg.Dropdown(options=strTypL, value=self.strTypSt,description=f"String_type")
+        self.strTypeW = widg.Dropdown(options=strTypL, value=striD[self.findW.value]["typ"],description=f"String_type")
         self.poSpW = widg.Dropdown(options=poSpL, value=self.poSpSt,description=f"Part_of_speech")
         self.frmW = widg.Dropdown(options=frmL, value=self.frmSt,description=f"Form")
         self.inpLngW = widg.Dropdown(options=lngL[:-1], value=self.inpLngSt,description=f"Input_language")
         self.inpSchW = widg.Dropdown(description=f"Input_scheme")
         self.entStrObjB = widg.Button(description=f"Enter String Object")
         self.delStrObjB = widg.Button(description=f"Delete String Object")
+        self.findB = widg.Button(description=f"Find")
         self.entStrObjB.on_click(self.entStrObjM)
         self.delStrObjB.on_click(self.delStrObjM)
+        self.findB.on_click(self.findM)
         self.inpLngW.observe(self.update_language_scheme_options)
         self.update_language_scheme_options(self)
 
@@ -1330,6 +1402,8 @@ class strObWdgCl:
                 self.strUnwantedW,
                 self.entStrObjB,
                 self.delStrObjB,
+                self.findW,
+                self.findB,
             ]
         )
 
@@ -1920,11 +1994,7 @@ def querize(
             intctv(qL,pres,refLng,qyArLegSch)
         else:
             print("not interactive")
-            qL = [
-                # [combClass(**comb).combObj for comb in optLs]
-                [combClass(**comb,qyArLegSch=qyArLegSch) for comb in optLs]
-                for optLs in qL
-            ]
+            qL = qLModder(qL,qyArLegSch)
             # colMap = getColMap(dicti)
             sortchron(qL,pres,refLng)
     confSetB = widg.Button(description='Enter configuration')
@@ -1933,3 +2003,31 @@ def querize(
     confCont = widg.VBox([presW,refLngW,qyArLegSchW,confSetB])
     clear_output()
     display(confCont)
+
+
+def sAPFin(qL):
+    if isinstance(qL,list):
+        if len(qL) > 0:
+            if isinstance(qL[0],list):
+                if len(qL[0]) > 0:
+                    if not isinstance(qL[0][0], combClass):
+                        qL = qLModder(qL)
+    instLstAgg = aggregLsts(qL)
+    sAPL = [
+        f"{sur_ay}:{pos}"
+        for inst in instLstAgg
+        if (poss := inst.positions) and (sur_ay := inst.surah_ayah)
+        for pos in poss
+    ]
+    # sAPL = []
+    # for inst in instLstAgg:
+    #     # print(inst)
+    #     # Extract `positions` and `surah_ayah` if they exist
+    #     poss = inst.positions
+    #     sur_ay = inst.surah_ayah
+        
+    #     # If both are truthy, construct the pairs
+    #     if poss and sur_ay:
+    #         for pos in poss:
+    #             sAPL.append(f"{sur_ay}:{pos}")
+    return sAPL
