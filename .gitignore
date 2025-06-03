@@ -2,6 +2,7 @@ cnf.txt
 __pycache__
 *.txt
 !requirements.txt
+!requirements-dev.txt
 dev.ipynb
 data/ref/*
 data/compare/*

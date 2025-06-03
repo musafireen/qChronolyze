@@ -1,4 +1,5 @@
-from shared import sameVrsIndicator
+from shared import sameVrsIndicator, lngL, lngD, lng2InpSchD, inpLngSchD
+from shared import rtTrns
 
 class strObjClass:
     # idx = 0
