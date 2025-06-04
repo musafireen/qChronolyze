@@ -1,9 +1,9 @@
-from shared import sameVrsIndicator, lngL, lngD, lng2InpSchD, inpLngSchD
-from shared import rtTrns
+from shared.constants import sameVrsIndicator, lngL, lngD, lng2InpSchD, inpLngSchD
+# from backend.utils import rtTrns
 
 from . import strObjClass
 
-class combClass:
+class CombClass:
     strLSt = []
     wrdDisSt = sameVrsIndicator
     # combObjSt = {

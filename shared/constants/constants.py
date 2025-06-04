@@ -1,3 +1,18 @@
+
+import json
+with open('data/striD.json') as f:
+    striD = json.loads(f.read())
+
+with open('data/surAyPosStrAdvWrdMD.json') as f:
+    surAyPosStrAdvWrdMD = json.loads(f.read())
+
+# with open("data/striSuAyPosWMD.json") as f:
+#     striSuAyPosWMD = json.loads(f.read())
+
+with open("posSerDict.json") as f:
+    posSerDict = json.loads(f.read())
+
+
 arbVwlsDict = {
         "a": "َ",
         "u": "ُ",

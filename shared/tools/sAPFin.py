@@ -1,11 +1,12 @@
-from backend.database.schemas import combClass
+from backend.database.schemas.combClass import CombClass
+from backend.utils import aggregLsts, qLModder
 
 def sAPFin(qL):
     if isinstance(qL,list):
         if len(qL) > 0:
             if isinstance(qL[0],list):
                 if len(qL[0]) > 0:
-                    if not isinstance(qL[0][0], combClass):
+                    if not isinstance(qL[0][0], CombClass):
                         qL = qLModder(qL)
     instLstAgg = aggregLsts(qL)
     sAPL = [

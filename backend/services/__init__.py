@@ -1,1 +1,1 @@
-from . import *
+from backend.services.posSerDict_getter import *

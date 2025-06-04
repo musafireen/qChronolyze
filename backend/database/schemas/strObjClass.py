@@ -1,7 +1,7 @@
-from shared import sameVrsIndicator, lngL, lngD, lng2InpSchD, inpLngSchD
-from shared import rtTrns
+from ....shared.constants import sameVrsIndicator, lngL, lngD, lng2InpSchD, inpLngSchD
+from ...utils.rtTrns import rtTrns
 
-class strObjClass:
+class StrObjClass:
     # idx = 0
     wrdDisPosSt = sameVrsIndicator
     wrdDisNegSt = -sameVrsIndicator
