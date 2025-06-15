@@ -1,23 +1,26 @@
 from ...shared.constants import surAyPosStrAdvWrdMD
+from ...shared.constants import USR_SORTER_PATH, USR_SURORD_PATH, USR_POSSER_PATH
+from ...shared.constants import qDict_path
 
 def getSorter():
-    
     
     """ to tweak the sorter tweak the "surOrd.tsv" file manually """
 
     import os
     import json
     import csv
-    with open('qdict.json') as f:
+
+    with open(qDict_path) as f:
         qStr = f.read()
     qDict = json.loads(qStr)
 
     loadedFromDict = False
 
-    if os.path.isfile('sorter.json'):
+
+    if USR_SORTER_PATH.is_file():
         print("'sorter.json' found'")
-        if os.path.getctime('sorter.json') > os.path.getctime('surOrd.tsv'):
-            with open('sorter.json') as f:
+        if os.path.getctime(USR_SORTER_PATH) > os.path.getctime(USR_SURORD_PATH):
+            with open( USR_SORTER_PATH ) as f:
                 sortStr = f.read()
                 # print(f"in 'sorter.json': \n\n{sortStr}")
             try:
@@ -36,7 +39,7 @@ def getSorter():
 
     if not loadedFromDict:
         print("creating sorter from 'surOrd.tsv'")
-        with open('surOrd.tsv') as f:
+        with open(USR_SURORD_PATH) as f:
             surOrd = [row for row in csv.DictReader(f, delimiter='\t') ]
 
         sorter = [''] * 6236
@@ -87,7 +90,7 @@ def getSorter():
                         sorter[i] = sa
                         i += 1
 
-        with open(f'sorter.json', 'w+') as f:
+        with open( USR_SORTER_PATH, 'w+') as f:
             f.write(json.dumps(sorter))
 
         # with open(f'posDict.json') as f:
@@ -106,7 +109,7 @@ def getSorter():
                 ser += 1
                 surAyPos = ":".join([sur,ay,posLs[j]])
                 posSerDict[surAyPos] = ser
-        with open(f'posSerDict.json', 'w+') as f:
+        with open( USR_POSSER_PATH, 'w+') as f:
             f.write(json.dumps(posSerDict))
 
     return sorter

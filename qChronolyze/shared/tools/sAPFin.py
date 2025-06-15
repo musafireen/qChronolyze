@@ -1,7 +1,7 @@
-from backend.database.schemas.combClass import CombClass
-from backend.utils import aggregLsts, qLModder
 
 def sAPFin(qL):
+    from ...backend.database.schemas.combClass import CombClass
+    from ...backend.utils import aggregLsts, qLModder
     if isinstance(qL,list):
         if len(qL) > 0:
             if isinstance(qL[0],list):
