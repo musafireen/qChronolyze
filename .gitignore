@@ -12,3 +12,4 @@ data/html/*
 *.png
 *.xcf
 dev3.ipynb
+qChronolyze/*
