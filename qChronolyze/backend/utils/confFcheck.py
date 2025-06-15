@@ -1,12 +1,13 @@
-from ...shared.constants import presD, refLngD
+from ...shared.constants import presD, refLngD, USR_CONF_FILE
 
 def confFcheck(pres='plot',refLng='english'):
+    
     if pres not in presD.values():
       if str(pres) in presD.keys():
         pres=presD[pres]
       else:
         presFound = False
-        with open("./cnf.json") as f:
+        with open(USR_CONF_FILE) as f:
             import json
             confD = json.loads(f.read())
             print(confD)
@@ -23,7 +24,7 @@ def confFcheck(pres='plot',refLng='english'):
         refLng=refLngD[refLng]
       else:
         refLngFound = False
-        with open("./cnf.json") as f:
+        with open(USR_CONF_FILE) as f:
             import json
             confD = json.loads(f.read())
             print(confD)

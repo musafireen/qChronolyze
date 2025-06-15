@@ -3,7 +3,7 @@ from pathlib import Path
 import json
 
 # from ...backend.utils import get_usr_conf_dir, get_usr_posser_path, get_usr_sorter_path, get_usr_surord_path
-from ..tools.get_path import get_usr_conf_dir, get_usr_posser_path, get_usr_sorter_path, get_usr_surord_path
+from ..tools.get_path import get_usr_conf_dir, get_usr_conf_file, get_usr_posser_path, get_usr_sorter_path, get_usr_surord_path
 
 DATA_DIR = Path(__file__).resolve().parent.parent.parent / "data"
 # FIXED_DATA_DIR = Path(__file__).resolve().parent.parent.parent / "data"
@@ -17,11 +17,15 @@ qDict_path = FIXED_DATA_DIR / "qdict.json"
 
 USR_CONF_DIR = get_usr_conf_dir()
 
+USR_CONF_FILE = get_usr_conf_file()
+
 USR_SORTER_PATH = get_usr_sorter_path()
 
 USR_SURORD_PATH = get_usr_surord_path()
 
 USR_POSSER_PATH = get_usr_posser_path()
+
+USR_CONF_PATH = USR_CONF_DIR / "cnf.json"
 
 # BASE_DIR = Path(__file__).resolve().parent
 with open( DATA_DIR / 'striD.json' ) as f:
@@ -35,6 +39,8 @@ with open( DATA_DIR / 'surAyPosStrAdvWrdMD.json' ) as f:
 
 with open( USR_POSSER_PATH ) as f:
     posSerDict = json.loads(f.read())
+
+qL=[]
 
 arbVwlsDict = {
         "a": "َ",

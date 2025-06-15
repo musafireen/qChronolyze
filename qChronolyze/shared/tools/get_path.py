@@ -9,6 +9,18 @@ def get_usr_conf_dir():
     return USR_CONF_DIR
 
 
+def get_usr_conf_file():
+    USR_CONF_DIR = get_usr_conf_dir()
+    USR_CONF_FILE = USR_CONF_DIR / "cnf.json"
+
+    if not USR_CONF_FILE.is_file():
+        # from ..constants import INIT_SORTER_PATH
+        INIT_CONF_FILE = INIT_CONF_DIR / "cnf.json"
+        shutil.copy2(INIT_CONF_FILE, USR_CONF_FILE)
+
+    return USR_CONF_FILE
+    
+
 def get_usr_sorter_path():
     USR_CONF_DIR = get_usr_conf_dir()
     USR_SORTER_PATH = USR_CONF_DIR / "sorter.json"
@@ -19,6 +31,8 @@ def get_usr_sorter_path():
         shutil.copy2(INIT_SORTER_PATH, USR_SORTER_PATH)
 
     return USR_SORTER_PATH
+
+
 
 
 def get_usr_surord_path():

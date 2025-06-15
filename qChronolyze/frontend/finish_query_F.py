@@ -1,11 +1,11 @@
 from .imports import widg
 # from backend.database.schemas.strObjClass import strObjClass
-from ..backend.database.schemas.combClass import CombClass
 from .sortChron import sortchron
 from ..shared.constants import lng2InpSchD
 
 
 def finish_query_f(button,container=widg.VBox([]),qL=[],pres='plot',refLng='english',qyArLegSch=lng2InpSchD["arabic"][-1]):
+    from ..backend.database.schemas.combClass import CombClass
     # global qL
     print("qyArLegSch in finished query is ",qyArLegSch)
     for k in range(len(container.children)-1,-1,-1):

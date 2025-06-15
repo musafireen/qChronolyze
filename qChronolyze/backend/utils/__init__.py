@@ -8,4 +8,5 @@ from .intersct import intersct
 from .remVwls import remVwls
 from .rtTrns import rtTrns
 from .confFcheck import confFcheck
+from .submConf import submConf
 # from .get_path import get_usr_conf_dir, get_usr_sorter_path, get_usr_surord_path, get_usr_posser_path
