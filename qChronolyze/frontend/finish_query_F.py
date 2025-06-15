@@ -5,6 +5,7 @@ from ..shared.constants import lng2InpSchD
 
 
 def finish_query_f(button,container=widg.VBox([]),qL=[],pres='plot',refLng='english',qyArLegSch=lng2InpSchD["arabic"][-1]):
+    # qlGetter()
     from ..backend.database.schemas.combClass import CombClass
     # global qL
     print("qyArLegSch in finished query is ",qyArLegSch)
@@ -81,6 +82,8 @@ def finish_query_f(button,container=widg.VBox([]),qL=[],pres='plot',refLng='engl
                 # qL.append(combObj.__dict__)
         # dg = aggregLsts(qL)
         # sortchron(dg)
-        sortchron(qL,pres=pres,refLng=refLng)
+    
+    ## can't figure out why i put it outside the outermost for loop
+    sortchron(qL,pres=pres,refLng=refLng)
         # return qL
         # return dg
