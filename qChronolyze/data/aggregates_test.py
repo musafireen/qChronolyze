@@ -1,4 +1,4 @@
-from qChronolyze import sameVrsIndicator, rtTrns
+from __main__ import sameVrsIndicator, rtTrns
 
 jnn = [
     [

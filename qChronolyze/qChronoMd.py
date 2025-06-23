@@ -3,8 +3,8 @@ import ipywidgets as widg
 from ipywidgets import interactive as intct
 import re, json
 from IPython.display import display, clear_output
-from qChronolyze import refLngD, tafsDict, lng2InpSchD
-from qChronolyze import aggregLsts, getSorter, combClass, optStWdgCl, confFcheck
+from __main__ import refLngD, tafsDict, lng2InpSchD
+from __main__ import aggregLsts, getSorter, combClass, optStWdgCl, confFcheck
 import copy
 
 with open("data/suAyRuk.json") as f:

@@ -1,4 +1,4 @@
-from qChronolyze import sameVrsIndicator
+from __main__ import sameVrsIndicator
 
 from aggregates_test import *
 

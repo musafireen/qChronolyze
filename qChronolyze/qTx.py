@@ -3,8 +3,8 @@ import ipywidgets as widg
 from ipywidgets import interactive as intct
 import re
 from IPython.display import display, clear_output
-from qChronolyze import refLngD, lng2InpSchD, tafsDict, surAyPosStrAdvWrdMD
-from qChronolyze import aggregLsts, getSorter, combClass, optStWdgCl, confFcheck
+from __main__ import refLngD, lng2InpSchD, tafsDict, surAyPosStrAdvWrdMD
+from __main__ import aggregLsts, getSorter, combClass, optStWdgCl, confFcheck
 
 def qChronoTx(dicti,flnm,refLng,qyArLegSch=lng2InpSchD["arabic"][1]):
     # instLstAgg = []   
