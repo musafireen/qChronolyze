@@ -1,8 +1,8 @@
 from pathlib import Path
 import shutil
 
-# INIT_CONF_DIR = Path(__file__).resolve().parent.parent.parent / "config"
-INIT_CONF_DIR = Path(__file__).resolve().parent.parent / "config"
+INIT_CONF_DIR = Path(__file__).resolve().parent.parent.parent / "config"
+# INIT_CONF_DIR = Path(__file__).resolve().parent.parent / "config"
 
 def get_usr_conf_dir():
     USR_CONF_DIR = Path.home() / "qChronolyze"
