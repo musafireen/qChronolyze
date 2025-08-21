@@ -27,4 +27,5 @@ def intctv(
         container
         )
     # clear_output()
+    print("reached intctv display")
     display(finish_query_B,container,)
