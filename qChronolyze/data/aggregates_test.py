@@ -1,4 +1,5 @@
-from __main__ import sameVrsIndicator, rtTrns
+from ..shared import sameVrsIndicator
+from ..backend import rtTrns
 
 jnn = [
     [

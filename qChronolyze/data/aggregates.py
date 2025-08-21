@@ -1,4 +1,5 @@
-from __main__ import sameVrsIndicator
+from ..shared import sameVrsIndicator
+from ..backend import rtTrns
 
 from aggregates_test import *
 
