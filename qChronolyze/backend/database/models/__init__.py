@@ -1,3 +1,5 @@
 from sqlalchemy import Column, Integer, String
 
-from . import *
+from .striT import *
+from .suAyPos_stri import *
+from .suAyPosT import suAyPosTC
