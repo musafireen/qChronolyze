@@ -21,11 +21,11 @@ def intctv(
     finish_query_B.on_click(partial(finish_query_f,container=container,qL=qL,pres=pres,refLng=refLng,qyArLegSch=qyArLegSch))
     # Container to hold all groups of widgets
     # Initialize the first group of widgets
-    # OptStWdgCl(
-    #     # 1
-    #     combs,
-    #     container
-    #     )
+    OptStWdgCl(
+        # 1
+        combs,
+        container
+        )
     # clear_output()
     print("reached button")
     display(finish_query_B,)
