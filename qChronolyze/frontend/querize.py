@@ -1,6 +1,6 @@
 
 from ..backend.utils import confFcheck
-from . import submConf
+from .submConf import submConf
 
 from ..shared.constants import lng2InpSchD, presD, refLngD
 
