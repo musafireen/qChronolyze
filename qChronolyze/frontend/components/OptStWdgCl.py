@@ -33,6 +33,10 @@ class OptStWdgCl:
 
         self.optSts = optSts
         self.container = container
+
+        print("Container ID in OptStWdgCl:", id(container))
+        print("Self.container ID:", id(self.container))
+
         # print(len(self.container.children))
 
         # self.wrdDisW = widg.IntText(min=0,max=6236,value=0, description=f"Verse Distance")

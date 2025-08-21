@@ -28,6 +28,8 @@ def intctv(
         combs,
         container
         )
+    
+    print("Container ID in intctv:", id(container))
     # clear_output()
     print("reached button")
     display(finish_query_B,)
