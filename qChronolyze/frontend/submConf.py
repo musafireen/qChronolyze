@@ -4,9 +4,9 @@
 
 # from ...frontend.sortChron import sortchron
 
-from ...shared.constants import lng2InpSchD, presD, refLngD, qL, USR_CONF_FILE
+from ..shared.constants import lng2InpSchD, presD, refLngD, qL, USR_CONF_FILE
 
-from ...frontend.imports import clear_output
+from .imports import clear_output
 
 from .intOrNot import intOrNot
 

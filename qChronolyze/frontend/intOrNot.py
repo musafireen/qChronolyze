@@ -1,10 +1,11 @@
 
+from ..backend.utils import qLModder
+
+from ..frontend.components.intctv import intctv
+
+from ..frontend.sortChron import sortchron
+
 def intOrNot(qL,pres,refLng,qyArLegSch):
-    from ..utils import qLModder
-
-    from ...frontend.components.intctv import intctv
-
-    from ...frontend.sortChron import sortchron
     if qL==[]:
     #     finished=False
     #     # while finished==False:

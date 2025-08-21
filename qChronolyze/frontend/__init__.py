@@ -6,3 +6,5 @@ from .imports import *
 from .finish_query_F import finish_query_f
 from .querize import querize
 from .sortChron import sortchron
+from .intOrNot import intOrNot
+from .submConf import submConf

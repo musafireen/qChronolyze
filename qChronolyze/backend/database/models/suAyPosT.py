@@ -1,8 +1,8 @@
 # backend/database/models/suAyPosT.py
-from backend.database.models import Column, Integer, String
+from . import Column, Integer, String
 #, create_engine
 # from sqlalchemy.ext.declarative import declarative_base
-from backend.database import Base
+from . import Base
 
 class suAyPosTC(Base):
     __tablename__ = 'suAyPosT'

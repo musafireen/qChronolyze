@@ -1,7 +1,7 @@
 from ..shared import sameVrsIndicator
 from ..backend import rtTrns
 
-from aggregates_test import *
+from .aggregates_test import *
 
 
 jinn_iblis_dhurriya = [
