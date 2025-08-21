@@ -1,4 +1,5 @@
-from ..imports import widg
+# from ..imports import widg
+import ipywidgets as widg
 
 from .CombWdgCl import CombWdgCl
 

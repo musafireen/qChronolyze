@@ -1,6 +1,8 @@
 
 from ...shared.constants import lng2InpSchD
-from ..imports import widg, display
+# from ..imports import widg, display
+from ..imports import display
+import ipywidgets as widg
 from ..finish_query_F import finish_query_f
 from .OptStWdgCl import OptStWdgCl
 

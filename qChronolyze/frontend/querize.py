@@ -4,7 +4,9 @@ from .submConf import submConf
 
 from ..shared.constants import lng2InpSchD, presD, refLngD
 
-from .imports import widg, clear_output, display
+# from .imports import widg, clear_output, display
+from .imports import clear_output, display
+import ipywidgets as widg
 
 
 def querize(
