@@ -1,0 +1,800 @@
+{
+    "1": {
+        "surah_name": "1 Al-Fatiha (The opener)",
+        "verse_count": 7,
+        "word_count": 74,
+        "char_count": 314,
+        "order": 5
+    },
+    "2": {
+        "surah_name": "2 Al-Baqarah (The cow)",
+        "verse_count": 286,
+        "word_count": 12316,
+        "char_count": 52639,
+        "order": 87
+    },
+    "3": {
+        "surah_name": "3 Al-Imran (Family of Imran)",
+        "verse_count": 200,
+        "word_count": 7080,
+        "char_count": 30276,
+        "order": 89
+    },
+    "4": {
+        "surah_name": "4 An-Nisa (The Women)",
+        "verse_count": 176,
+        "word_count": 7347,
+        "char_count": 31845,
+        "order": 92
+    },
+    "5": {
+        "surah_name": "5 Al-Ma'idah (The Table Spread)",
+        "verse_count": 120,
+        "word_count": 5598,
+        "char_count": 23932,
+        "order": 112
+    },
+    "6": {
+        "surah_name": "6 Al-Anam (The Cattle)",
+        "verse_count": 165,
+        "word_count": 6226,
+        "char_count": 26109,
+        "order": 55
+    },
+    "7": {
+        "surah_name": "7 Al-A'raf (The Heights)",
+        "verse_count": 206,
+        "word_count": 6796,
+        "char_count": 28550,
+        "order": 39
+    },
+    "8": {
+        "surah_name": "8 Al-Anfal (The Spoils of War)",
+        "verse_count": 75,
+        "word_count": 2525,
+        "char_count": 10834,
+        "order": 88
+    },
+    "9": {
+        "surah_name": "9 At-Taubah (The Repentance)",
+        "verse_count": 129,
+        "word_count": 5169,
+        "char_count": 22679,
+        "order": 113
+    },
+    "10": {
+        "surah_name": "10 Yunus (Jonah)",
+        "verse_count": 109,
+        "word_count": 3588,
+        "char_count": 14947,
+        "order": 51
+    },
+    "11": {
+        "surah_name": "11 Hud (Hud)",
+        "verse_count": 123,
+        "word_count": 3930,
+        "char_count": 16168,
+        "order": 52
+    },
+    "12": {
+        "surah_name": "12 Yusuf (Joseph)",
+        "verse_count": 111,
+        "word_count": 3566,
+        "char_count": 14512,
+        "order": 53
+    },
+    "13": {
+        "surah_name": "13 Ar-Ra'd (Thunder)",
+        "verse_count": 43,
+        "word_count": 1701,
+        "char_count": 7360,
+        "order": 96
+    },
+    "14": {
+        "surah_name": "14 Ibrahim (Abraham)",
+        "verse_count": 52,
+        "word_count": 1649,
+        "char_count": 7050,
+        "order": 72
+    },
+    "15": {
+        "surah_name": "15 Al-Hijr (The Stoneland)",
+        "verse_count": 99,
+        "word_count": 1389,
+        "char_count": 5896,
+        "order": 54
+    },
+    "16": {
+        "surah_name": "16 An-Nahl (The Bee)",
+        "verse_count": 128,
+        "word_count": 3757,
+        "char_count": 15908,
+        "order": 70
+    },
+    "17": {
+        "surah_name": "17 Al-Isra (The Night Journey)",
+        "verse_count": 111,
+        "word_count": 3223,
+        "char_count": 13549,
+        "order": 50
+    },
+    "18": {
+        "surah_name": "18 Al-Kahf (The Cave)",
+        "verse_count": 110,
+        "word_count": 3350,
+        "char_count": 13823,
+        "order": 69
+    },
+    "19": {
+        "surah_name": "19 Maryam (Mary)",
+        "verse_count": 98,
+        "word_count": 2036,
+        "char_count": 8188,
+        "order": 44
+    },
+    "20": {
+        "surah_name": "20 Ta-Ha (Ta-Ha)",
+        "verse_count": 135,
+        "word_count": 2830,
+        "char_count": 11608,
+        "order": 45
+    },
+    "21": {
+        "surah_name": "21 Al-Anbiya (The Prophets)",
+        "verse_count": 112,
+        "word_count": 2437,
+        "char_count": 10109,
+        "order": 73
+    },
+    "22": {
+        "surah_name": "22 Al-Hajj (The Pilgrimage)",
+        "verse_count": 78,
+        "word_count": 2537,
+        "char_count": 10938,
+        "order": 103
+    },
+    "23": {
+        "surah_name": "23 Al-Mu'minun (The Believers)",
+        "verse_count": 118,
+        "word_count": 2116,
+        "char_count": 8871,
+        "order": 74
+    },
+    "24": {
+        "surah_name": "24 An-Nur (The Light)",
+        "verse_count": 64,
+        "word_count": 2611,
+        "char_count": 11316,
+        "order": 102
+    },
+    "25": {
+        "surah_name": "25 Al-Furqan (The Criterion)",
+        "verse_count": 77,
+        "word_count": 1846,
+        "char_count": 7811,
+        "order": 42
+    },
+    "26": {
+        "surah_name": "26 Ash-Shu'ara (The Poets)",
+        "verse_count": 227,
+        "word_count": 2710,
+        "char_count": 10938,
+        "order": 47
+    },
+    "27": {
+        "surah_name": "27 An-Naml (The Ants)",
+        "verse_count": 93,
+        "word_count": 2352,
+        "char_count": 9712,
+        "order": 48
+    },
+    "28": {
+        "surah_name": "28 Al-Qasas (The Story)",
+        "verse_count": 88,
+        "word_count": 2900,
+        "char_count": 11817,
+        "order": 49
+    },
+    "29": {
+        "surah_name": "29 Al-Ankabut (Spider)",
+        "verse_count": 69,
+        "word_count": 1969,
+        "char_count": 8353,
+        "order": 85
+    },
+    "30": {
+        "surah_name": "30 Ar-Rum (The Romans)",
+        "verse_count": 60,
+        "word_count": 1636,
+        "char_count": 7003,
+        "order": 84
+    },
+    "31": {
+        "surah_name": "31 Luqman (Luqman)",
+        "verse_count": 34,
+        "word_count": 1038,
+        "char_count": 4415,
+        "order": 57
+    },
+    "32": {
+        "surah_name": "32 As-Sajdah (Prostration)",
+        "verse_count": 30,
+        "word_count": 745,
+        "char_count": 3153,
+        "order": 75
+    },
+    "33": {
+        "surah_name": "33 Al-Ahzab (The Confederates)",
+        "verse_count": 73,
+        "word_count": 2594,
+        "char_count": 11343,
+        "order": 90
+    },
+    "34": {
+        "surah_name": "34 Saba (Sheba)",
+        "verse_count": 54,
+        "word_count": 1741,
+        "char_count": 7287,
+        "order": 58
+    },
+    "35": {
+        "surah_name": "35 Fatir (The Originator)",
+        "verse_count": 45,
+        "word_count": 1519,
+        "char_count": 6492,
+        "order": 43
+    },
+    "36": {
+        "surah_name": "36 Ya-Sin (Ya Sin)",
+        "verse_count": 83,
+        "word_count": 1498,
+        "char_count": 6040,
+        "order": 41
+    },
+    "37": {
+        "surah_name": "37 As-Saffat (Those Who Set the Ranks)",
+        "verse_count": 182,
+        "word_count": 1881,
+        "char_count": 7896,
+        "order": 56
+    },
+    "38": {
+        "surah_name": "38 Sad (The letter Saad)",
+        "verse_count": 88,
+        "word_count": 1553,
+        "char_count": 6600,
+        "order": 38
+    },
+    "39": {
+        "surah_name": "39 Az-Zumar (The Troops)",
+        "verse_count": 75,
+        "word_count": 2319,
+        "char_count": 9831,
+        "order": 59
+    },
+    "40": {
+        "surah_name": "40 Ghafir (The Forgiver)",
+        "verse_count": 85,
+        "word_count": 2449,
+        "char_count": 10388,
+        "order": 60
+    },
+    "41": {
+        "surah_name": "41 Fussilat (Explained in Detail)",
+        "verse_count": 54,
+        "word_count": 1648,
+        "char_count": 6929,
+        "order": 61
+    },
+    "42": {
+        "surah_name": "42 Ash-Shura (The Consultation)",
+        "verse_count": 53,
+        "word_count": 1682,
+        "char_count": 7227,
+        "order": 62
+    },
+    "43": {
+        "surah_name": "43 Az-Zukhruf (The Ornaments of Gold)",
+        "verse_count": 89,
+        "word_count": 1785,
+        "char_count": 7486,
+        "order": 63
+    },
+    "44": {
+        "surah_name": "44 Ad-Dukhan (The Smoke)",
+        "verse_count": 59,
+        "word_count": 710,
+        "char_count": 3023,
+        "order": 64
+    },
+    "45": {
+        "surah_name": "45 Al-Jathiyah (The Crouching)",
+        "verse_count": 37,
+        "word_count": 999,
+        "char_count": 4167,
+        "order": 65
+    },
+    "46": {
+        "surah_name": "46 Al-Ahqaf (The Wind Curved Sandhill)",
+        "verse_count": 35,
+        "word_count": 1311,
+        "char_count": 5561,
+        "order": 66
+    },
+    "47": {
+        "surah_name": "47 Muhammad (Muhammad)",
+        "verse_count": 38,
+        "word_count": 1099,
+        "char_count": 4853,
+        "order": 95
+    },
+    "48": {
+        "surah_name": "48 Al-Fath (The Victory)",
+        "verse_count": 29,
+        "word_count": 1169,
+        "char_count": 5157,
+        "order": 111
+    },
+    "49": {
+        "surah_name": "49 Al-Hujurat (The Private Chambers)",
+        "verse_count": 18,
+        "word_count": 663,
+        "char_count": 2889,
+        "order": 106
+    },
+    "50": {
+        "surah_name": "50 Qaf (Qaf)",
+        "verse_count": 45,
+        "word_count": 762,
+        "char_count": 3150,
+        "order": 34
+    },
+    "51": {
+        "surah_name": "51 Adh-Dhariyat (The Scatterers)",
+        "verse_count": 60,
+        "word_count": 753,
+        "char_count": 3182,
+        "order": 67
+    },
+    "52": {
+        "surah_name": "52 At-Tur (The Mountain)",
+        "verse_count": 49,
+        "word_count": 680,
+        "char_count": 2852,
+        "order": 76
+    },
+    "53": {
+        "surah_name": "53 An-Najm (The Star)",
+        "verse_count": 62,
+        "word_count": 738,
+        "char_count": 3072,
+        "order": 23
+    },
+    "54": {
+        "surah_name": "54 Al-Qamar (The Moon)",
+        "verse_count": 55,
+        "word_count": 723,
+        "char_count": 3155,
+        "order": 37
+    },
+    "55": {
+        "surah_name": "55 Ar-Rahman (The Beneficent)",
+        "verse_count": 78,
+        "word_count": 815,
+        "char_count": 3278,
+        "order": 97
+    },
+    "56": {
+        "surah_name": "56 Al-Waqi'ah (The Inevitable)",
+        "verse_count": 96,
+        "word_count": 849,
+        "char_count": 3538,
+        "order": 46
+    },
+    "57": {
+        "surah_name": "57 Al-Hadid (The Iron)",
+        "verse_count": 29,
+        "word_count": 1188,
+        "char_count": 5139,
+        "order": 94
+    },
+    "58": {
+        "surah_name": "58 Al-Mujadila (The Pleading Women)",
+        "verse_count": 22,
+        "word_count": 920,
+        "char_count": 4111,
+        "order": 105
+    },
+    "59": {
+        "surah_name": "59 Al-Hashr (The Exile)",
+        "verse_count": 24,
+        "word_count": 897,
+        "char_count": 3971,
+        "order": 101
+    },
+    "60": {
+        "surah_name": "60 Al-Mumtahanah (She That is to be Examined)",
+        "verse_count": 13,
+        "word_count": 715,
+        "char_count": 3129,
+        "order": 91
+    },
+    "61": {
+        "surah_name": "61 As-Saff (The Ranks)",
+        "verse_count": 14,
+        "word_count": 425,
+        "char_count": 1828,
+        "order": 109
+    },
+    "62": {
+        "surah_name": "62 Al-Jumu'ah (Congregation Prayer)",
+        "verse_count": 11,
+        "word_count": 341,
+        "char_count": 1406,
+        "order": 110
+    },
+    "63": {
+        "surah_name": "63 Al-Munafiqun (The Hypocrites)",
+        "verse_count": 11,
+        "word_count": 367,
+        "char_count": 1558,
+        "order": 104
+    },
+    "64": {
+        "surah_name": "64 At-Taghabun (Mutual Disposession)",
+        "verse_count": 18,
+        "word_count": 503,
+        "char_count": 2182,
+        "order": 108
+    },
+    "65": {
+        "surah_name": "65 At-Talaq (The Divorce)",
+        "verse_count": 12,
+        "word_count": 562,
+        "char_count": 2511,
+        "order": 99
+    },
+    "66": {
+        "surah_name": "66 At-Tahrim (The Prohibition)",
+        "verse_count": 12,
+        "word_count": 478,
+        "char_count": 2115,
+        "order": 107
+    },
+    "67": {
+        "surah_name": "67 Al-Mulk (The Sovereignty)",
+        "verse_count": 30,
+        "word_count": 659,
+        "char_count": 2707,
+        "order": 77
+    },
+    "68": {
+        "surah_name": "68 Al-Qalam (The Pen)",
+        "verse_count": 52,
+        "word_count": 650,
+        "char_count": 2760,
+        "order": 2
+    },
+    "69": {
+        "surah_name": "69 Al-Haqqah (The Reality)",
+        "verse_count": 52,
+        "word_count": 575,
+        "char_count": 2318,
+        "order": 78
+    },
+    "70": {
+        "surah_name": "70 Al-Ma'arij (The Ascending Stairways)",
+        "verse_count": 44,
+        "word_count": 448,
+        "char_count": 1945,
+        "order": 79
+    },
+    "71": {
+        "surah_name": "71 Nuh (Noah)",
+        "verse_count": 28,
+        "word_count": 430,
+        "char_count": 1900,
+        "order": 71
+    },
+    "72": {
+        "surah_name": "72 Al-Jinn (The Jinn)",
+        "verse_count": 28,
+        "word_count": 573,
+        "char_count": 2424,
+        "order": 40
+    },
+    "73": {
+        "surah_name": "73 Al-Muzzammil (The Enshrouded One)",
+        "verse_count": 20,
+        "word_count": 422,
+        "char_count": 1750,
+        "order": 3
+    },
+    "74": {
+        "surah_name": "74 Al-Muddaththir (The Cloaked One)",
+        "verse_count": 56,
+        "word_count": 526,
+        "char_count": 2274,
+        "order": 4
+    },
+    "75": {
+        "surah_name": "75 Al-Qiyamah (The Resurrection)",
+        "verse_count": 40,
+        "word_count": 353,
+        "char_count": 1445,
+        "order": 31
+    },
+    "76": {
+        "surah_name": "76 Al-Insan (The Man)",
+        "verse_count": 31,
+        "word_count": 520,
+        "char_count": 2252,
+        "order": 98
+    },
+    "77": {
+        "surah_name": "77 Al-Mursalat (The Emissaries)",
+        "verse_count": 50,
+        "word_count": 402,
+        "char_count": 1653,
+        "order": 33
+    },
+    "78": {
+        "surah_name": "78 An-Naba (The Tidings)",
+        "verse_count": 40,
+        "word_count": 374,
+        "char_count": 1618,
+        "order": 80
+    },
+    "79": {
+        "surah_name": "79 An-Nazi'at (Those who drag forth)",
+        "verse_count": 46,
+        "word_count": 418,
+        "char_count": 1783,
+        "order": 81
+    },
+    "80": {
+        "surah_name": "80 Abasa (He Frowned)",
+        "verse_count": 42,
+        "word_count": 306,
+        "char_count": 1329,
+        "order": 24
+    },
+    "81": {
+        "surah_name": "81 At-Takwir (The Overthrowing)",
+        "verse_count": 29,
+        "word_count": 243,
+        "char_count": 1005,
+        "order": 7
+    },
+    "82": {
+        "surah_name": "82 Al-Infitar (The Cleaving)",
+        "verse_count": 19,
+        "word_count": 171,
+        "char_count": 730,
+        "order": 82
+    },
+    "83": {
+        "surah_name": "83 Al-Mutaffifin (The Defrauding)",
+        "verse_count": 36,
+        "word_count": 350,
+        "char_count": 1520,
+        "order": 86
+    },
+    "84": {
+        "surah_name": "84 Al-Inshiqaq (The Sundering)",
+        "verse_count": 25,
+        "word_count": 243,
+        "char_count": 993,
+        "order": 83
+    },
+    "85": {
+        "surah_name": "85 Al-Buruj (The Mansions of the Stars)",
+        "verse_count": 22,
+        "word_count": 211,
+        "char_count": 995,
+        "order": 27
+    },
+    "86": {
+        "surah_name": "86 At-Tariq (The Nightcommer)",
+        "verse_count": 17,
+        "word_count": 132,
+        "char_count": 523,
+        "order": 36
+    },
+    "87": {
+        "surah_name": "87 Al-Ala (The Most High)",
+        "verse_count": 19,
+        "word_count": 144,
+        "char_count": 638,
+        "order": 8
+    },
+    "88": {
+        "surah_name": "88 Al-Ghashiyah (The Overwhelming)",
+        "verse_count": 26,
+        "word_count": 191,
+        "char_count": 835,
+        "order": 68
+    },
+    "89": {
+        "surah_name": "89 Al-Fajr (The Dawn)",
+        "verse_count": 30,
+        "word_count": 293,
+        "char_count": 1211,
+        "order": 10
+    },
+    "90": {
+        "surah_name": "90 Al-Balad (The City)",
+        "verse_count": 20,
+        "word_count": 177,
+        "char_count": 727,
+        "order": 35
+    },
+    "91": {
+        "surah_name": "91 Ash-Shams (The Sun)",
+        "verse_count": 15,
+        "word_count": 157,
+        "char_count": 655,
+        "order": 26
+    },
+    "92": {
+        "surah_name": "92 Al-Lail (The Night)",
+        "verse_count": 21,
+        "word_count": 172,
+        "char_count": 703,
+        "order": 9
+    },
+    "93": {
+        "surah_name": "93 Ad-Duha (The Morning Brightness)",
+        "verse_count": 11,
+        "word_count": 108,
+        "char_count": 418,
+        "order": 11
+    },
+    "94": {
+        "surah_name": "94 Ash-Sharh (The Expansion)",
+        "verse_count": 8,
+        "word_count": 62,
+        "char_count": 265,
+        "order": 12
+    },
+    "95": {
+        "surah_name": "95 At-Tin (The Fig)",
+        "verse_count": 8,
+        "word_count": 69,
+        "char_count": 280,
+        "order": 28
+    },
+    "96": {
+        "surah_name": "96 Al-Alaq (The Blood Clot)",
+        "verse_count": 19,
+        "word_count": 134,
+        "char_count": 557,
+        "order": 1
+    },
+    "97": {
+        "surah_name": "97 Al-Qadr (The Power)",
+        "verse_count": 5,
+        "word_count": 56,
+        "char_count": 237,
+        "order": 25
+    },
+    "98": {
+        "surah_name": "98 Al-Bayyina (The Evidence)",
+        "verse_count": 8,
+        "word_count": 169,
+        "char_count": 822,
+        "order": 100
+    },
+    "99": {
+        "surah_name": "99 Az-Zalzalah (The Earthquake)",
+        "verse_count": 8,
+        "word_count": 75,
+        "char_count": 319,
+        "order": 93
+    },
+    "100": {
+        "surah_name": "100 Al-Adiyat (The Courser)",
+        "verse_count": 11,
+        "word_count": 83,
+        "char_count": 373,
+        "order": 14
+    },
+    "101": {
+        "surah_name": "101 Al-Qari'ah (The Calamity)",
+        "verse_count": 11,
+        "word_count": 86,
+        "char_count": 343,
+        "order": 30
+    },
+    "102": {
+        "surah_name": "102 At-Takathur (Vying for increase)",
+        "verse_count": 8,
+        "word_count": 60,
+        "char_count": 259,
+        "order": 16
+    },
+    "103": {
+        "surah_name": "103 Al-Asr (The Declining Day)",
+        "verse_count": 3,
+        "word_count": 29,
+        "char_count": 132,
+        "order": 13
+    },
+    "104": {
+        "surah_name": "104 Al-Humazah (The Slanderer)",
+        "verse_count": 9,
+        "word_count": 66,
+        "char_count": 297,
+        "order": 32
+    },
+    "105": {
+        "surah_name": "105 Al-Fil (The Elephant)",
+        "verse_count": 5,
+        "word_count": 46,
+        "char_count": 203,
+        "order": 19
+    },
+    "106": {
+        "surah_name": "106 Quraysh (Quraish)",
+        "verse_count": 4,
+        "word_count": 41,
+        "char_count": 186,
+        "order": 29
+    },
+    "107": {
+        "surah_name": "107 Al-Ma'un (The Small Kindness)",
+        "verse_count": 7,
+        "word_count": 52,
+        "char_count": 218,
+        "order": 17
+    },
+    "108": {
+        "surah_name": "108 Al-Kawthar (The Abundance)",
+        "verse_count": 3,
+        "word_count": 26,
+        "char_count": 108,
+        "order": 15
+    },
+    "109": {
+        "surah_name": "109 Al-Kafirun (The Disbelievers)",
+        "verse_count": 6,
+        "word_count": 48,
+        "char_count": 191,
+        "order": 18
+    },
+    "110": {
+        "surah_name": "110 An-Nasr (The Divine Support)",
+        "verse_count": 3,
+        "word_count": 43,
+        "char_count": 191,
+        "order": 114
+    },
+    "111": {
+        "surah_name": "111 Al-Masad (The Palm Fiber)",
+        "verse_count": 5,
+        "word_count": 52,
+        "char_count": 193,
+        "order": 6
+    },
+    "112": {
+        "surah_name": "112 Al-Ikhlas (The Sincerity)",
+        "verse_count": 4,
+        "word_count": 24,
+        "char_count": 93,
+        "order": 22
+    },
+    "113": {
+        "surah_name": "113 Al-Falaq (The Daybreak)",
+        "verse_count": 5,
+        "word_count": 45,
+        "char_count": 170,
+        "order": 20
+    },
+    "114": {
+        "surah_name": "114 An-Nas (The Mankind)",
+        "verse_count": 6,
+        "word_count": 38,
+        "char_count": 167,
+        "order": 21
+    }
+}

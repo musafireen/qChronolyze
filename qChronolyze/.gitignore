@@ -1,0 +1,16 @@
+cnf.txt
+__pycache__
+*.txt
+!requirements.txt
+!requirements-dev.txt
+dev.ipynb
+data/ref/*
+data/compare/*
+data/html/*
+*.md
+!data/ref/QsortedRukued.md
+!data/ref/Qrsi.md
+*.png
+*.xcf
+dev3.ipynb
+venv/*

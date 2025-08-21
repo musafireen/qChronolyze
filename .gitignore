@@ -1,0 +1,7 @@
+venv/*
+data/*
+post/*
+*.png
+cnf.txt
+intro.txt
+__pycache__
