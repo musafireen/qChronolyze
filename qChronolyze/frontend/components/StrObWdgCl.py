@@ -1,6 +1,7 @@
 from ...backend.database.schemas.strObjClass import StrObjClass
 
-from ..imports import widg
+# from ..imports import widg
+import ipywidgets as widg
 
 from ...shared.constants import sameVrsIndicator, lng2InpSchD, striD, inpLngSchD, lngD, lngL, strTypL, frmL, poSpL
 

@@ -1,6 +1,7 @@
 
 from ...backend.database.schemas.combClass import CombClass
-from ..imports import widg
+# from ..imports import widg
+import ipywidgets as widg
 from ...shared.constants import sameVrsIndicator
 from .StrObWdgCl import StrObWdgCl
 

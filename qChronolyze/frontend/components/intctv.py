@@ -36,4 +36,4 @@ def intctv(
     print("reached button")
     display(finish_query_B,)
     print("reached container")
-    # display(container,)
+    display(container,)
