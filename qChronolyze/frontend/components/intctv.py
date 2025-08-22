@@ -1,7 +1,8 @@
 
 from ...shared.constants import lng2InpSchD
 # from ..imports import widg, display
-from ..imports import display
+# from ..imports import display
+from IPython.display import display, clear_output
 import ipywidgets as widg
 from ..finish_query_F import finish_query_f
 from .OptStWdgCl import OptStWdgCl
@@ -23,6 +24,7 @@ def intctv(
     finish_query_B.on_click(partial(finish_query_f,container=container,qL=qL,pres=pres,refLng=refLng,qyArLegSch=qyArLegSch))
     # Container to hold all groups of widgets
     # Initialize the first group of widgets
+    print("Container ID in intctv:", id(container))
     OptStWdgCl(
         # 1
         combs,

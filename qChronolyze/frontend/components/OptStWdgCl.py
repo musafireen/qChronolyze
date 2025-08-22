@@ -1,5 +1,7 @@
 # from ..imports import widg
 import ipywidgets as widg
+from ipywidgets import Output
+from IPython.display import display, clear_output
 
 from .CombWdgCl import CombWdgCl
 
@@ -44,6 +46,7 @@ class OptStWdgCl:
         self.entOptStB.on_click(self.entOptStM)
         self.delOptStB = widg.Button(description="Delete Option of String Objects")
         self.delOptStB.on_click(self.delOptStM)
+        self.out = Output()
 
         self.optSt_container = widg.VBox(
             [
@@ -75,3 +78,6 @@ class OptStWdgCl:
 
         self.optSts.append(self.optSt_container)
         self.container.children = [self.optSt_container,*self.container.children,]
+
+        # clear_output()
+        # display(self.container)
