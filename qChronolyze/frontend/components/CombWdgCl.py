@@ -2,6 +2,7 @@
 from ...backend.database.schemas.combClass import CombClass
 # from ..imports import widg
 import ipywidgets as widg
+from ipywidgets import Output
 from ...shared.constants import sameVrsIndicator
 from .StrObWdgCl import StrObWdgCl
 
@@ -47,6 +48,7 @@ class CombWdgCl:
         self.entCombB.on_click(self.entCombM)
         self.delCombB = widg.Button(description="Delete Combination of String Objects")
         self.delCombB.on_click(self.delCombM)
+        self.out = Output()
 
         self.comb_container = widg.HBox(
             [
@@ -79,4 +81,6 @@ class CombWdgCl:
         # strngs.append(initial_strng)
 
         self.combs.append(self.comb_container)
-        self.opt_container.children[1].children = [self.comb_container,*self.opt_container.children[1].children,]
+        with self.out:
+            self.opt_container.children[1].children = [self.comb_container,*self.opt_container.children[1].children,]
+            

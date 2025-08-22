@@ -2,6 +2,7 @@ from ...backend.database.schemas.strObjClass import StrObjClass
 
 # from ..imports import widg
 import ipywidgets as widg
+from ipywidgets import Output
 
 from ...shared.constants import sameVrsIndicator, lng2InpSchD, striD, inpLngSchD, lngD, lngL, strTypL, frmL, poSpL
 
@@ -82,6 +83,7 @@ class StrObWdgCl:
         self.findB.on_click(self.findM)
         self.inpLngW.observe(self.update_language_scheme_options)
         self.update_language_scheme_options(self)
+        self.out = Output()
 
         self.strUnwantedW = widg.ToggleButton(value=False,description='Exclude')
         self.wrdDisPosW = widg.IntText(min=0,max=sameVrsIndicator,value=self.wrdDisPosSt, description=f"Word Distance before")
@@ -108,16 +110,17 @@ class StrObWdgCl:
 
         parentComb.strngs.append(self.strContainer)
 
-        parentComb.comb_container.children = [parentComb.comb_container.children[0], self.strContainer, *parentComb.comb_container.children[1:]]
+        with self.out:
+            parentComb.comb_container.children = [parentComb.comb_container.children[0], self.strContainer, *parentComb.comb_container.children[1:]]
 
-        parentComb.comb_container.layout=widg.Layout(
-            max_width="800px",       # Set the width to control the horizontal space
-            # max_height="800px",       # Set the width to control the horizontal space
-            # width="500px",       # Set the width to control the horizontal space
-            # height="200px",       # Set the width to control the horizontal space
-            # overflow="scroll",  # Enable horizontal scrolling if content overflows
-            border="1px solid black",  # Optional: add a border to make the scroll area visible
-            # display="flex",
-            # flex_flow='row',
-            overflow='scroll hidden'
-        )
+            parentComb.comb_container.layout=widg.Layout(
+                max_width="800px",       # Set the width to control the horizontal space
+                # max_height="800px",       # Set the width to control the horizontal space
+                # width="500px",       # Set the width to control the horizontal space
+                # height="200px",       # Set the width to control the horizontal space
+                # overflow="scroll",  # Enable horizontal scrolling if content overflows
+                border="1px solid black",  # Optional: add a border to make the scroll area visible
+                # display="flex",
+                # flex_flow='row',
+                overflow='scroll hidden'
+            )
