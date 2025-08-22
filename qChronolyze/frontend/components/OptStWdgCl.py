@@ -47,6 +47,7 @@ class OptStWdgCl:
         self.delOptStB = widg.Button(description="Delete Option of String Objects")
         self.delOptStB.on_click(self.delOptStM)
         self.out = Output()
+        display(self.out)
 
         self.optSt_container = widg.VBox(
             [
@@ -77,7 +78,8 @@ class OptStWdgCl:
         )
 
         self.optSts.append(self.optSt_container)
-        self.container.children = [self.optSt_container,*self.container.children,]
+        with self.out:
+            self.container.children = [self.optSt_container,*self.container.children,]
 
-        # clear_output()
-        display(self.container)
+            # clear_output()
+            display(self.container)
