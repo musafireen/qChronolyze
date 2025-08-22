@@ -79,5 +79,5 @@ class OptStWdgCl:
         self.optSts.append(self.optSt_container)
         self.container.children = [self.optSt_container,*self.container.children,]
 
-        # clear_output()
-        # display(self.container)
+        clear_output()
+        display(self.container)
