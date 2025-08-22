@@ -3,6 +3,7 @@ from ...backend.database.schemas.strObjClass import StrObjClass
 # from ..imports import widg
 import ipywidgets as widg
 from ipywidgets import Output
+from IPython.display import display, clear_output
 
 from ...shared.constants import sameVrsIndicator, lng2InpSchD, striD, inpLngSchD, lngD, lngL, strTypL, frmL, poSpL
 
@@ -124,3 +125,5 @@ class StrObWdgCl:
                 # flex_flow='row',
                 overflow='scroll hidden'
             )
+
+            display(parentComb)

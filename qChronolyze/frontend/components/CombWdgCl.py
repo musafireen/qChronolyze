@@ -3,6 +3,7 @@ from ...backend.database.schemas.combClass import CombClass
 # from ..imports import widg
 import ipywidgets as widg
 from ipywidgets import Output
+from IPython.display import display, clear_output
 from ...shared.constants import sameVrsIndicator
 from .StrObWdgCl import StrObWdgCl
 
@@ -83,4 +84,4 @@ class CombWdgCl:
         self.combs.append(self.comb_container)
         with self.out:
             self.opt_container.children[1].children = [self.comb_container,*self.opt_container.children[1].children,]
-            
+            display(self.opt_container)
