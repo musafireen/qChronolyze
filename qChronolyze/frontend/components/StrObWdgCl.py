@@ -111,20 +111,20 @@ class StrObWdgCl:
 
         parentComb.strngs.append(self.strContainer)
 
-        with self.out:
-            parentComb.comb_container.children = [parentComb.comb_container.children[0], self.strContainer, *parentComb.comb_container.children[1:]]
+        # with self.out:
+        parentComb.comb_container.children = [parentComb.comb_container.children[0], self.strContainer, *parentComb.comb_container.children[1:]]
 
-            parentComb.comb_container.layout=widg.Layout(
-                max_width="800px",       # Set the width to control the horizontal space
-                # max_height="800px",       # Set the width to control the horizontal space
-                # width="500px",       # Set the width to control the horizontal space
-                # height="200px",       # Set the width to control the horizontal space
-                # overflow="scroll",  # Enable horizontal scrolling if content overflows
-                border="1px solid black",  # Optional: add a border to make the scroll area visible
-                # display="flex",
-                # flex_flow='row',
-                overflow='scroll hidden'
-            )
+        parentComb.comb_container.layout=widg.Layout(
+            max_width="800px",       # Set the width to control the horizontal space
+            # max_height="800px",       # Set the width to control the horizontal space
+            # width="500px",       # Set the width to control the horizontal space
+            # height="200px",       # Set the width to control the horizontal space
+            # overflow="scroll",  # Enable horizontal scrolling if content overflows
+            border="1px solid black",  # Optional: add a border to make the scroll area visible
+            # display="flex",
+            # flex_flow='row',
+            overflow='scroll hidden'
+        )
 
-            clear_output()
-            display(parentComb)
+        # clear_output()
+        # display(parentComb)
