@@ -84,4 +84,6 @@ class CombWdgCl:
         self.combs.append(self.comb_container)
         with self.out:
             self.opt_container.children[1].children = [self.comb_container,*self.opt_container.children[1].children,]
+
+            clear_output()
             display(self.opt_container)

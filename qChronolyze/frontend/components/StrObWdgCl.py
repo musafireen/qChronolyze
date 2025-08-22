@@ -126,4 +126,5 @@ class StrObWdgCl:
                 overflow='scroll hidden'
             )
 
+            clear_output()
             display(parentComb)
